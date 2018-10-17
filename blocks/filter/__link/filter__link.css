@@ -1,0 +1,12 @@
+.filter__link {
+  color: #1ba2a1;
+  text-align: right;
+  text-decoration: none;
+  padding: 1px 0px 1px 0px;
+  display: block;
+  transition: 0.3s;
+}
+
+.filter__link:hover {
+  color: #ffffff;
+}

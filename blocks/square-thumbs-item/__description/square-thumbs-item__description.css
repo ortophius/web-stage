@@ -1,0 +1,21 @@
+.square-thumbs-item__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0px;
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+  transition: 
+    height 0.4s,
+    opacity 0.6s;
+}
+
+.square-thumbs-item:hover .square-thumbs-item__description {
+  opacity: 1;
+  height: 100%;
+}

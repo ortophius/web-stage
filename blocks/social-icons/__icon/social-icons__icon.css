@@ -1,0 +1,8 @@
+.social-icons__icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  background-image: url('static/social-icons/icons.png');
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="42"
+   height="42"
+   viewBox="0 0 42 42">
+  <path
+        class='square-thumbs-item__svg_shape_arrow'
+     style="fill:#ffffff"
+     id="path3386"
+     d="m 15.813653,19.684231 c -0.319025,0.899993 -0.506956,1.809471 0,2.769235 l 5.652954,-0.05193 -2.575567,2.423087 C 18.730458,25.885665 19.290572,26.466448 20.671862,26.5 L 26.5,21.016909 20.671862,15.533823 c -1.219958,-0.178124 -1.845718,0.342525 -1.780822,1.675387 l 2.575567,2.423082 z" />
+  <ellipse
+        class='square-thumbs-item__svg_shape_ellipse'
+     cy="21"
+     cx="21"
+     id="path3394"
+     style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.97281051;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     rx="20"
+     ry="20" />
+</svg>

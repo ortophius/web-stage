@@ -1,0 +1,6 @@
+.content{
+  min-height: 100vh;
+  padding-left: 238px;
+  position: relative;
+  z-index: 1;
+}

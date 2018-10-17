@@ -1,0 +1,11 @@
+.filter-menu {
+  padding-top: 15px;
+  overflow: hidden;
+  transition: 
+    margin-top 0.3s ease,
+    opacity 0.3s,
+    visibility 0.3s;
+  margin-top: -50%;
+  opacity: 0;
+  visibility: hidden;
+}

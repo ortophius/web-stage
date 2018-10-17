@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Soho Gothic Light";
+  src: url('static/page/SohoGothicPro-Light.otf')
+}
+
+.page {
+  font-family: "Soho Gothic Light", Sans-serif;
+}

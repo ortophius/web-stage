@@ -1,0 +1,7 @@
+.left-bar {
+  background-color: #242b2e;
+  float: left;
+  width: 238px;
+  height: 100vh;
+  position: fixed;
+}

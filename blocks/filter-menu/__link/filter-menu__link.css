@@ -1,0 +1,10 @@
+.filter-menu__link {
+  font-size: 13px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #666b6e;
+}
+
+.filter-menu__link:hover {
+  color: #ffffff;
+}

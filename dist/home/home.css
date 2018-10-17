@@ -1,0 +1,337 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+  font-family: "Soho Gothic Light";
+  src: url('static/page/SohoGothicPro-Light.otf')
+}
+
+.page {
+  font-family: "Soho Gothic Light", Sans-serif;
+}
+.left-bar {
+  background-color: #242b2e;
+  float: left;
+  width: 238px;
+  height: 100vh;
+  position: fixed;
+}
+.left-bar_shadow{
+  box-shadow: 20px 0px 20px 0px rgba(0,0,0,0.5);
+  z-index: 100;
+}
+.logo {
+  background-color: #FFFFFF;
+  background-image: url('static/logo/logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 117px;
+  min-height: 59px;
+  padding: 20px 0px 20px 0px;
+}
+
+.main-menu__item {
+
+}
+.main-menu__link {
+  border-bottom: 1px solid #283033;
+  font-size: 13.5px;
+  line-height: 3.6;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+  background-image: linear-gradient(#333b3e, #2e3639);
+  background-repeat: repeat-x;
+}
+
+.main-menu__link:hover {
+  background-image: linear-gradient(#31bdbc, #18a3a0);
+  border-bottom: 1px solid #169290;
+}
+.main-menu__link_last {
+  border-bottom: 1px solid #202426;
+}
+.filter {
+  padding: 20px 20px 20px 0px;
+  text-align: right;
+}
+.filter__link {
+  color: #1ba2a1;
+  text-align: right;
+  text-decoration: none;
+  padding: 1px 0px 1px 0px;
+  display: block;
+  transition: 0.3s;
+}
+
+.filter__link:hover {
+  color: #ffffff;
+}
+.filter__link_display-icon {
+  padding-right: 25px;
+  background-image: url('static/filter/filter-icon.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+}
+.filter-menu {
+  padding-top: 15px;
+  overflow: hidden;
+  transition: 
+    margin-top 0.3s ease,
+    opacity 0.3s,
+    visibility 0.3s;
+  margin-top: -50%;
+  opacity: 0;
+  visibility: hidden;
+}
+.filter-menu__item {
+  text-align: right;
+}
+.filter-menu__link {
+  font-size: 13px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #666b6e;
+}
+
+.filter-menu__link:hover {
+  color: #ffffff;
+}
+.social-icons {
+  padding-top: 40px;
+  padding-right: 20px;
+  text-align: right;
+  border-top: 1px solid #1e282a;
+}
+.social-icons__icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  background-image: url('static/social-icons/icons.png');
+  background-repeat: no-repeat;
+}
+.social-icons__icon_type_1 {
+  background-position: 0px 0px;
+}
+.social-icons__icon_type_2 {
+  background-position: -33px 0px;
+}
+.social-icons__icon_type_3 {
+  background-position: -67px 0px;
+}
+.social-icons__icon_type_4 {
+  background-position: -100px 0px;
+}
+.social-icons__icon_type_5 {
+  background-position: -134px 0px;
+}
+.social-icons__icon_type_6 {
+  background-position: -167px 0px;
+}
+.social-icons__icon_type_7 {
+  background-position: -201px 0px;
+}
+.copyright {
+  color: #6b7072;
+  text-align: right;
+  text-transform: capitalize;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 11px;
+}
+.content{
+  min-height: 100vh;
+  padding-left: 238px;
+  position: relative;
+  z-index: 1;
+}
+.square-thumbs {
+  width: 100%;
+  font-size: 0px;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.square-thumbs-item {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  padding-top: 19.2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.square-thumbs-item__description-background {
+  background-color: #2cb8b6;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  bottom: 0px;
+  opacity: 0.9;
+  transition: height 0.4s;
+}
+.square-thumbs-item:hover .square-thumbs-item__description-background {
+  height: 100%;
+}
+.square-thumbs-item__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0px;
+  height: 0px;
+  width: 100%;
+  opacity: 0;
+  transition: 
+    height 0.4s,
+    opacity 0.6s;
+}
+
+.square-thumbs-item:hover .square-thumbs-item__description {
+  opacity: 1;
+  height: 100%;
+}
+.square-thumbs-item__title {
+  font-family: 'Roboto';
+  font-size: 19px;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.8;
+  margin-top: -6%;
+  color: #ffffff;
+}
+.square-thumbs-item__subtitle {
+  font-family: 'Roboto', Sans-serif;
+  text-transform: lowercase;
+  font-size: 10px;
+  padding-bottom: 5%;
+  line-height: 0.5;
+  border-bottom: 1px solid #ffffff;
+}
+.square-thumbs-item__space {
+  display: block;
+  height: 6%;
+}
+.square-thumbs-item__button {
+  display: block;
+  width: 14%;
+  padding-top: 14%;
+  background-image: url('static/square-thumbs-item/button.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25%;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  transition: 
+    border-color 0.8s,
+    background-color 0.4s;
+}
+
+.square-thumbs-item__button:hover {
+  border-color: #11615f;
+  background-color: #11615fcc;
+}

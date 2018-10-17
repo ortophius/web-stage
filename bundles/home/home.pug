@@ -1,0 +1,65 @@
+doctype html
+html
+  head
+   link(rel='stylesheet', href='home.css')
+   script.jquery(language='javascript', src='static/jquery/jquery.js')
+  body.reset.page
+    div.left-bar.left-bar_shadow
+      div.logo
+      ul.main-menu
+        li.main-menu__item
+          a.main-menu__link(href='#') Home
+        li.main-menu__item
+          a.main-menu__link(href='#') Work
+        li.main-menu__item
+          a.main-menu__link(href='#') About
+        li.main-menu__item
+          a.main-menu__link(href='#') Blog
+        li.main-menu__item
+          a.main-menu__link(href='#') Services
+        li.main-menu__item
+          a.main-menu__link.main-menu__link_last(href='#') Contact
+      div.filter
+        a.filter__link.filter__link_display-icon(href='#') Filter
+        ul.filter-menu
+          li.filter-menu__item
+            a.filter-menu__link(href='#') all works
+          li.filter-menu__item
+            a.filter-menu__link(href='#') web design
+          li.filter-menu__item
+            a.filter-menu__link(href='#') illustration
+          li.filter-menu__item
+            a.filter-menu__link(href='#') photography
+          li.filter-menu__item
+            a.filter-menu__link(href='#') wallpapers
+          li.filter-menu__item
+            a.filter-menu__link(href='#') brochures
+      div.social-icons
+        a.social-icons__icon.social-icons__icon_type_1(href="#")
+        a.social-icons__icon.social-icons__icon_type_2(href="#")
+        a.social-icons__icon.social-icons__icon_type_3(href="#")
+        a.social-icons__icon.social-icons__icon_type_4(href="#")
+        a.social-icons__icon.social-icons__icon_type_5(href="#")
+        a.social-icons__icon.social-icons__icon_type_6(href="#")
+        a.social-icons__icon.social-icons__icon_type_7(href="#")
+      div.copyright &copy; 2014 Kappe, all rights reserved
+    div.content
+      include /square-thumbs-item/square-thumbs-item.pug
+      div.square-thumbs
+        +square-thumb-item('#', 'static/square-thumbs-item/abc-alphabet-art-1337386.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/achievement-antique-business-6186.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/apple-blur-book-159886.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/apple-keyboard-buttons-computer-34490.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/art-black-background-bright-1162361.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/auto-automotive-brand-1236789.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/back-cellphone-close-up-1024634.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/batman-cartoon-color-1203777.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/beverage-blur-close-up-1467475.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/blur-branding-check-1032109.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/blur-close-up-depth-of-field-1478442.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/brand-chrome-classic-170809.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/brown-business-card-card-1349047.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/building-business-cctv-351263.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/conceptual-creativity-design-430205.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/critique-design-designer-17845.jpg')
+    script(language='javascript', src='home.js')  

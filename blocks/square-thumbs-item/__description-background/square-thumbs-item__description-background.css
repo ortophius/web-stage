@@ -1,0 +1,12 @@
+.square-thumbs-item__description-background {
+  background-color: #2cb8b6;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  bottom: 0px;
+  opacity: 0.9;
+  transition: height 0.4s;
+}
+.square-thumbs-item:hover .square-thumbs-item__description-background {
+  height: 100%;
+}

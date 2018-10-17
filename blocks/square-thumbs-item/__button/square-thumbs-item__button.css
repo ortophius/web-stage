@@ -1,0 +1,19 @@
+.square-thumbs-item__button {
+  display: block;
+  width: 14%;
+  padding-top: 14%;
+  background-image: url('static/square-thumbs-item/button.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25%;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  transition: 
+    border-color 0.8s,
+    background-color 0.4s;
+}
+
+.square-thumbs-item__button:hover {
+  border-color: #11615f;
+  background-color: #11615fcc;
+}

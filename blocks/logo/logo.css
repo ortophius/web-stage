@@ -1,0 +1,9 @@
+.logo {
+  background-color: #FFFFFF;
+  background-image: url('static/logo/logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 117px;
+  min-height: 59px;
+  padding: 20px 0px 20px 0px;
+}

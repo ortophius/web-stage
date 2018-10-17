@@ -1,0 +1,8 @@
+mixin square-thumb-item(link='#', img='static/square-thumbs-item/default.jpg', title='lorem ipsum', subtitle='dolor sit amet')
+  div.square-thumbs-item(data-img=img)
+    div.square-thumbs-item__description-background
+    div.square-thumbs-item__description
+      h2.square-thumbs-item__title= title
+      h3.square-thumbs-item__subtitle= subtitle
+      div.square-thumbs-item__space
+      a.square-thumbs-item__button(href=link) 

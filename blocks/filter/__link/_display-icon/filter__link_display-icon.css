@@ -1,0 +1,7 @@
+.filter__link_display-icon {
+  padding-right: 25px;
+  background-image: url('static/filter/filter-icon.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+}
