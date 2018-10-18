@@ -1,9 +1,9 @@
 .square-thumbs-item__title {
   font-family: 'Roboto';
-  font-size: 19px;
+  font-size: 1em;
   text-transform: capitalize;
   text-align: center;
-  line-height: 1.8;
-  margin-top: -6%;
+  line-height: 2;
+  margin-top: -7%;
   color: #ffffff;
 }

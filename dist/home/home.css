@@ -52,7 +52,7 @@ table {
 .left-bar {
   background-color: #242b2e;
   float: left;
-  width: 238px;
+  width: 15.625%;
   height: 100vh;
   position: fixed;
 }
@@ -63,11 +63,11 @@ table {
 .logo {
   background-color: #FFFFFF;
   background-image: url('static/logo/logo.png');
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  min-width: 117px;
-  min-height: 59px;
-  padding: 20px 0px 20px 0px;
+  width: 100%;
+  padding-top: 41.667%;
 }
 
 .main-menu__item {
@@ -186,7 +186,7 @@ table {
 }
 .content{
   min-height: 100vh;
-  padding-left: 238px;
+  padding-left: 15.625%;
   position: relative;
   z-index: 1;
 }
@@ -275,6 +275,7 @@ table {
   height: 100%;
 }
 .square-thumbs-item__description {
+  font-size: 23px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,19 +296,25 @@ table {
   opacity: 1;
   height: 100%;
 }
+
+@media (max-width: 1600px) {
+  .square-thumbs-item__description {
+    font-size: 19px;
+  }
+}
 .square-thumbs-item__title {
   font-family: 'Roboto';
-  font-size: 19px;
+  font-size: 1em;
   text-transform: capitalize;
   text-align: center;
-  line-height: 1.8;
-  margin-top: -6%;
+  line-height: 2;
+  margin-top: -7%;
   color: #ffffff;
 }
 .square-thumbs-item__subtitle {
   font-family: 'Roboto', Sans-serif;
   text-transform: lowercase;
-  font-size: 10px;
+  font-size: 0.52em;
   padding-bottom: 5%;
   line-height: 0.5;
   border-bottom: 1px solid #ffffff;
@@ -318,8 +325,8 @@ table {
 }
 .square-thumbs-item__button {
   display: block;
-  width: 14%;
-  padding-top: 14%;
+  width: 14.5%;
+  padding-top: 14.5%;
   background-image: url('static/square-thumbs-item/button.png');
   background-repeat: no-repeat;
   background-position: center center;

@@ -1,4 +1,5 @@
 .square-thumbs-item__description {
+  font-size: 23px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,4 +19,10 @@
 .square-thumbs-item:hover .square-thumbs-item__description {
   opacity: 1;
   height: 100%;
+}
+
+@media (max-width: 1600px) {
+  .square-thumbs-item__description {
+    font-size: 19px;
+  }
 }
