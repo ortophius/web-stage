@@ -1,7 +1,8 @@
 .square-thumbs-item__subtitle {
-  font-family: 'Roboto', Sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: lowercase;
   font-size: 0.52em;
+  font-weight: 300;
   padding-bottom: 5%;
   line-height: 0.5;
   border-bottom: 1px solid #ffffff;

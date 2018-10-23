@@ -1,7 +1,7 @@
 .filter__link_display-icon {
-  padding-right: 25px;
+  padding-right: 10%;
   background-image: url('static/filter/filter-icon.png');
   background-repeat: no-repeat;
   background-position: bottom right;
-
+  background-size: 6.5%;
 }

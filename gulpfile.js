@@ -70,7 +70,6 @@ gulp.task('deps', () => {
         js: bundle => bundle.src('js', {deps: false}).pipe(concat(`${bundle.name+'/'+bundle.name}.js`)),
         static: bundle => gulp.src(pathsFromBem(bundle), {base: '.'})
           .pipe(rename(file => {
-              console.log(bundle);
               file.dirname = path.join(bundle.name, 'static', file.dirname.split(path.sep)[1]);
           }))
           .pipe(debug())

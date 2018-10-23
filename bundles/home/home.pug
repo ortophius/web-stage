@@ -1,9 +1,24 @@
 doctype html
 html
   head
-   link(rel='stylesheet', href='home.css')
-   script.jquery(language='javascript', src='static/jquery/jquery.js')
+    title Kappe - Home
+    link(rel='stylesheet', href='home.css')
   body.reset.page
+    div.info
+      div.info__label
+        include /info/__icon/icon.svg
+      div.contacts
+        div.contacts__background
+        div.contacts__container
+          div.contacts__line 
+            span.fas.fa-phone
+            | 9930 1234 5679
+          div.contacts__line
+            span.fas.fa-envelope
+            | contact@domain.com
+          div.contacts__line
+            span.fas.fa-home
+            | street address example
     div.left-bar.left-bar_shadow
       div.logo
       ul.main-menu
@@ -23,7 +38,7 @@ html
         a.filter__link.filter__link_display-icon(href='#') Filter
         ul.filter-menu
           li.filter-menu__item
-            a.filter-menu__link(href='#') all works
+            a.filter-menu__link(href='#') All Works
           li.filter-menu__item
             a.filter-menu__link(href='#') web design
           li.filter-menu__item
@@ -51,7 +66,7 @@ html
         +square-thumb-item('#', 'static/square-thumbs-item/apple-blur-book-159886.jpg')
         +square-thumb-item('#', 'static/square-thumbs-item/apple-keyboard-buttons-computer-34490.jpg')
         +square-thumb-item('#', 'static/square-thumbs-item/art-black-background-bright-1162361.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/auto-automotive-brand-1236789.jpg')
+        +square-thumb-item('#', 'static/square-thumbs-item/auto-automotive-brand-1236789.jpg', 'Cool App Design', 'development, mobile')
         +square-thumb-item('#', 'static/square-thumbs-item/back-cellphone-close-up-1024634.jpg')
         +square-thumb-item('#', 'static/square-thumbs-item/batman-cartoon-color-1203777.jpg')
         +square-thumb-item('#', 'static/square-thumbs-item/beverage-blur-close-up-1467475.jpg')

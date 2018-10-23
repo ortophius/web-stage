@@ -1,5 +1,6 @@
 .square-thumbs-item__description {
   font-size: 23px;
+  font-size: 1.25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,5 +25,6 @@
 @media (max-width: 1600px) {
   .square-thumbs-item__description {
     font-size: 19px;
+    font-size: 1.25vw;
   }
 }
