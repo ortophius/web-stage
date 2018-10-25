@@ -1,0 +1,9 @@
+.contacts__line {
+  line-height: 2.2;
+  float: left;
+  clear: both;
+  font-size: 12.5px;
+  font-size: 0.822vw;
+  font-weight: 100;
+  padding-left: 7%;
+}

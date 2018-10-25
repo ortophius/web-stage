@@ -1,0 +1,15 @@
+.info__icon {
+  width: 25%;
+  border-radius: 100%;
+  border: 1px solid #ffffff;
+  padding: 20%;
+  transition: 
+    transform 0.3s,
+    border-color 0.5s;
+  cursor: pointer;
+}
+
+.info__label:hover .info__icon{
+  transform: scale(2, 2);
+  border-color: rgba(0, 0, 0, 0); 
+}

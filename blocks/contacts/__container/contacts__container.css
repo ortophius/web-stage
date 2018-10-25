@@ -1,0 +1,12 @@
+.contacts__container {
+    bottom: 0px;
+    width: 14.6vw;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    float: right;
+    clear: both;
+    z-index: 101;
+    padding: 4.5% 0px 6% 0px;
+}
