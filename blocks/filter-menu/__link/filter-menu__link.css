@@ -1,10 +1,10 @@
 .filter-menu__link {
   font-size: 13px;
-  font-size: 0.7vw;
+  font-size: 0.677vw;
   /*text-transform: capitalize;*/
   text-decoration: none;
   color: #666b6e;
-  line-height: 1.6;
+  line-height: 1.9;
 }
 
 .filter-menu__link:hover {
