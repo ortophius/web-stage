@@ -1,0 +1,11 @@
+.left-bar__item {
+  margin-top: 8%;
+}
+
+.left-bar__item:first-of-type {
+  margin-top: 0px;
+}
+
+.left-bar__item:last-of-type {
+  margin-top: 7%
+}
