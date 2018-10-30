@@ -271,12 +271,16 @@ table {
   float: right;
   clear: both;
   overflow: hidden;
+  transition: margin-right 0.4s ease-in-out;
 }
 .fa, .fas {
   font-size: 15px;
   font-size: 1vw;
   margin-right: 7px;
   margin-right: 0.5vw;
+}
+.contacts_hidden {
+  margin-right: -100%;
 }
  .contacts__background {
   position: absolute;
@@ -315,10 +319,10 @@ table {
   width: 15.625%;
   height: 100vh;
   position: fixed;
+  z-index: 100;
 }
 .left-bar_shadow{
   box-shadow: 20px 0px 20px 0px rgba(0,0,0,0.5);
-  z-index: 100;
 }
 .logo {
   background-color: #FFFFFF;
@@ -456,7 +460,7 @@ table {
   font-size: 0.61vw;
 }
 .content{
-  background-color: #3b5865;
+  background-color: #b4b7b8;
   min-height: 100vh;
   padding-left: 15.625%;
   position: relative;

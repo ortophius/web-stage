@@ -6,5 +6,8 @@
     {
       block: 'fonts',
       elem: 'awesome'
+    }, 
+    {
+      block: 'jquery'  
     }]
 })

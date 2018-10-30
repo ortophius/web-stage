@@ -3,6 +3,7 @@
   float: right;
   clear: both;
   overflow: hidden;
+  transition: margin-right 0.4s ease-in-out;
 }
 .fa, .fas {
   font-size: 15px;

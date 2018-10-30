@@ -1,0 +1,8 @@
+.blog {
+  columns: 5;
+  break-inside: avoid;
+  padding: 1.543%;
+  column-gap: 1.543%;
+  font-size: 25px;
+  font-size: 1.3vw;
+}

@@ -1,0 +1,24 @@
+//-
+  mixins
+include /post-link/post-link.mixin.pug
+
+doctype html
+html
+  include /head/head.pug
+  +head('Kappe - Blog', 'blog.css')
+  body.reset.page
+  include /left-bar/left-bar.pug
+  div.content
+    div.blog
+      div.blog-post
+        +post-link('Test', '#', 'https://google.com')
+      div.blog-post
+        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
+      div.blog-post
+        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
+      div.blog-post
+        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
+      div.blog-post
+        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
+  script(language='javascript', src='blog.js')
+          

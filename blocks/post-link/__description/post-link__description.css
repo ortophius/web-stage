@@ -1,0 +1,9 @@
+.post-link__description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-size: 0.93vw;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+}

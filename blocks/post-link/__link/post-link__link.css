@@ -1,0 +1,10 @@
+.post-link__link {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-size: 0.73vw;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+}
