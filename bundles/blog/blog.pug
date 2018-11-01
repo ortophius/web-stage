@@ -7,18 +7,25 @@ html
   include /head/head.pug
   +head('Kappe - Blog', 'blog.css')
   body.reset.page
+  include /info/info.pug
   include /left-bar/left-bar.pug
   div.content
     div.blog
       div.blog-post
+        div.post-complex
+          div.post-complex__media.post-complex__media_size_medium
+          div.post-complex__info 
+            div.post-complex__title Gallery Post Example
+            div.post-complex__description A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who
+          div.post-complex__delimeter
+          div.post-complex__footer             
+            div.post-complex__footer-item
+              span.post-complex__footer-icon.fas.fa-comment
+              | 3 comments
+            div.post-complex__footer-item
+              span.post-complex__footer-icon.fas.fa-calendar-alt
+              | Dec 19, 2013
+      div.blog-post
         +post-link('Test', '#', 'https://google.com')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
   script(language='javascript', src='blog.js')
           
