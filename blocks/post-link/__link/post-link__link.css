@@ -1,9 +1,9 @@
 .post-link__link {
   display: block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-size: 0.73vw;
-  font-weight: 600;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  font-size: 0.78vw;
+  font-weight: 400;
   font-style: italic;
   text-align: center;
   color: #ffffff;

@@ -2,6 +2,8 @@
   block: 'post-link',
   mustDeps: [{
     block: 'fonts',
-    elem: 'roboto'
+    elem: 'roboto',
+    mod: 'condensed',
+    val: 'bold'
   }]
 })
