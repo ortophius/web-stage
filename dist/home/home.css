@@ -592,13 +592,13 @@ table {
   opacity: 0;
   transition: opacity 0.4s;
 }
-.back-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  opacity: 0;
+.hover-overlay {
+  position: relative;
 }
 .square-thumbs-item__description-background {
+
+}
+.hover-overlay__background {
   background-color: #2cb8b6;
   position: absolute;
   width: 100%;
@@ -607,12 +607,14 @@ table {
   opacity: 0.9;
   transition: height 0.4s;
 }
-.square-thumbs-item:hover .square-thumbs-item__description-background {
+.hover-overlay:hover .hover-overlay__background {
   height: 100%;
 }
 .square-thumbs-item__description {
   font-size: 23px;
   font-size: 1.25vw;
+}
+.hover-overlay__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -629,16 +631,9 @@ table {
     opacity 0.6s;
 }
 
-.square-thumbs-item:hover .square-thumbs-item__description {
+.hover-overlay:hover .hover-overlay__container {
   opacity: 1;
   height: 100%;
-}
-
-@media (max-width: 1600px) {
-  .square-thumbs-item__description {
-    font-size: 19px;
-    font-size: 1.25vw;
-  }
 }
 .square-thumbs-item__title {
   font-family: 'Roboto', sans-serif;
@@ -667,6 +662,8 @@ table {
   display: block;
   width: 14.5%;
   padding-top: 14.5%;
+}
+.arrow-button {
   background-image: url('static/square-thumbs-item/button.png');
   background-repeat: no-repeat;
   background-position: center center;
@@ -678,7 +675,7 @@ table {
     background-color 0.4s;
 }
 
-.square-thumbs-item__button:hover {
+.arrow-button:hover {
   border-color: #11615f;
   background-color: #11615fcc;
 }
