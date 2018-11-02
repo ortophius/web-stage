@@ -1,0 +1,15 @@
+.image-slider__nav-button {
+  position: absolute;
+  background-color: #1ab5b3;
+  z-index: 1;
+  top: 50%;
+  width: 14.62%;
+  font-size: 0px;
+  margin-top: -7.31%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.image-slider__nav-button:hover {
+  background-color: #18a4a2;
+}

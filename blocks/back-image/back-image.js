@@ -5,7 +5,7 @@ $(document).on('DOMContentLoaded', () => {
     img.src = $(item).attr('data-img');
     img.onload = () => {
       $(item).css('background-image', 'url('+img.src+')');
-      $(item).css('opacity', '1');
+      if (!$(item).hasClass('back-image_hidden')) $(item).css('opacity', '1');
     }
   });
 })
