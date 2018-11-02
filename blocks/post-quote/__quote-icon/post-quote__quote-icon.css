@@ -1,0 +1,15 @@
+.post-quote__quote-icon {
+  color: #1ab5b3;
+  font-family: 'Lobster', sans;
+  font-style: italic;
+  quotes: '\201c' '\201d';
+  font-size: 65px;
+  font-size: 3.38vw;
+  /* Корректируем базовую линию кавычек */
+  line-height: 0px;
+  padding-top: 20%;
+  padding-right: 10.2%;
+}
+.post-quote__quote-icon::before{
+  content: open-quote;
+}

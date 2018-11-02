@@ -1,0 +1,9 @@
+.post-quote__text {
+  display: block;
+  font-family: 'Times New Roman';
+  font-style: italic;
+  color: #ffffff;
+  font-size: 23px;
+  font-size: 1.19vw;
+  line-height: 1.1;
+}
