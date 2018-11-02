@@ -592,6 +592,12 @@ table {
   opacity: 0;
   transition: opacity 0.4s;
 }
+.back-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0;
+}
 .square-thumbs-item__description-background {
   background-color: #2cb8b6;
   position: absolute;
