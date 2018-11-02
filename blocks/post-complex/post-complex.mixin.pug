@@ -1,6 +1,18 @@
-mixin post-complex(title, description)
+mixin post-complex(title, description, type, images)
   div.post-complex
-    div.post-complex__media.post-complex__media_size_medium
+    div.post-complex__media.post-complex__media_size_medium.image-slider
+      if type == 'slider'
+        div.image-slider__nav-button.image-slider__nav-button_direction_back
+          include /image-slider/static/chevron-left.svg
+        div.image-slider__nav-button.image-slider__nav-button_direction_forward
+          include /image-slider/static/chevron-right.svg
+        each image, index in images
+          if index == 0
+            div.back-image(data-img=image).back-image_hidden.image-slider__slide.image-slider__slide_active
+          else
+            div.back-image(data-img=image).back-image_hidden.image-slider__slide
+      else
+        div.back-image(data-img=images)
     div.post-complex__info 
       div.post-complex__title= title
       div.post-complex__description= description

@@ -451,7 +451,7 @@ table {
 .main-menu__link {
   /*border-bottom: 1px solid #283033;*/
   font-size: 14px;
-  font-size: 0.93vw;
+  font-size: 0.937vw;
   line-height: 3.4;
   text-transform: uppercase;
   text-decoration: none;
@@ -597,6 +597,50 @@ table {
 .post-complex__media_size_medium {
   padding-top: 78.23%;
 }
+.image-slider {
+  width: 100%;
+  position: relative;
+}
+.image-slider__nav-button {
+  position: absolute;
+  background-color: #1ab5b3;
+  z-index: 1;
+  top: 50%;
+  width: 14.62%;
+  font-size: 0px;
+  margin-top: -7.31%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.image-slider__nav-button:hover {
+  background-color: #18a4a2;
+}
+.image-slider__nav-button_direction_back {
+  left: 0px;
+}
+.image-slider__nav-button_direction_forward {
+  right: 0px;
+}
+.back-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0;
+}
+.image-slider__slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 0;
+}
+.image-slider__slide_active {
+  opacity: 1;
+}
 .post-complex__info {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -732,12 +776,6 @@ table {
   width: 100%;
   padding-top: 89.11%;
 }
-.back-image {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  opacity: 0;
-}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Lobster';
@@ -812,6 +850,7 @@ table {
   color: #1ab5b3;
   font-weight: 300;
   font-size: 19px;
+  font-size: 0.989vw;
   letter-spacing: -0.02em;
   padding-left: 1.7%;
   padding-top: 7.23%;
