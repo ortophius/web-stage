@@ -1,24 +1,20 @@
 //-
   mixins
 include /post-link/post-link.mixin.pug
+include /post-complex/post-complex.mixin.pug
 
 doctype html
 html
   include /head/head.pug
   +head('Kappe - Blog', 'blog.css')
   body.reset.page
+  include /info/info.pug
   include /left-bar/left-bar.pug
   div.content
     div.blog
       div.blog-post
-        +post-link('Test', '#', 'https://google.com')
+        +post-complex('Gallery Post Example', 'A man who works with his hands is a laborer; a man who works with his hand s and his brain is a craftsman; but a man who')
       div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
-      div.blog-post
-        +post-link('Lorem Ipsum', '#', 'https://dolor.sit')
+        +post-link('Another Post where you can put a link to a specific website', '#', 'http://www.themeforest.net')
   script(language='javascript', src='blog.js')
           
