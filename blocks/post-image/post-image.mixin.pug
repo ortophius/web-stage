@@ -1,0 +1,5 @@
+mixin post-image(image, button)
+  div.post-image.back-image(data-img=image)
+    if button
+      div.post-image__overlay
+        a.arrow-button(href='#')

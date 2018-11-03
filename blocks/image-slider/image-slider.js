@@ -4,8 +4,6 @@ $('.image-slider__nav-button').click(function(e){
   var direction = 1;
   var slides = $(e.target).parents('.image-slider').find('.image-slider__slide');
   
-  console.log(e);
-  
   if ($(e.currentTarget).hasClass('image-slider__nav-button_direction_back')) direction = -1;
   
   slides.each(function(index, elem){
@@ -21,5 +19,4 @@ $('.image-slider__nav-button').click(function(e){
   
   $(slides[currentIndex]).removeClass('image-slider__slide_active');
   $(slides[nextIndex]).addClass('image-slider__slide_active');
-  console.log(nextIndex);
 });
