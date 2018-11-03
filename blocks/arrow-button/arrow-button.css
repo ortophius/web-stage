@@ -1,10 +1,14 @@
 .arrow-button {
-  background-image: url('static/square-thumbs-item/button.png');
+  background-image: url('static/arrow-button/button.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 25%;
   border: 1px solid #ffffff;
   border-radius: 100%;
+  width: 48.5px;
+  padding-top:48.5px;
+  width: 3.19vw;
+  padding-top: 3.19vw;
   transition: 
     border-color 0.8s,
     background-color 0.4s;

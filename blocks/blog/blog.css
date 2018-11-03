@@ -1,8 +1,22 @@
 .blog {
+  position: relative;
   columns: 5;
+  column-fill: balance;
   break-inside: avoid;
   padding: 1.543%;
   column-gap: 1.543%;
   font-size: 25px;
   font-size: 1.3vw;
+}
+
+@media (max-width: 1600px) and (min-width: 1025px){
+  .blog {
+    columns: 4;
+  }
+}
+
+@media (max-width: 1024px){
+  .blog {
+    columns: 3;
+  }
 }

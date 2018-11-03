@@ -1,18 +1,22 @@
-mixin post-complex(title, description, type, images)
-  div.post-complex
-    div.post-complex__media.post-complex__media_size_medium.image-slider
-      if type == 'slider'
+mixin post-complex(title, description, type, source, size='medium')
+  div.post-complex   
+    if type == 'slider'
+      div.post-complex__media(class='post-complex__media_size_' + size).image-slider
         div.image-slider__nav-button.image-slider__nav-button_direction_back
           include /image-slider/static/chevron-left.svg
         div.image-slider__nav-button.image-slider__nav-button_direction_forward
           include /image-slider/static/chevron-right.svg
-        each image, index in images
+        each image, index in source
           if index == 0
             div.back-image(data-img=image).back-image_hidden.image-slider__slide.image-slider__slide_active
           else
             div.back-image(data-img=image).back-image_hidden.image-slider__slide
-      else
-        div.back-image(data-img=images)
+    else if type == 'video'
+      div.post-complex__media.post-complex__media_type_video
+        video(src=source controls loop).post-complex__video
+    else if type== 'image'
+      div.post-complex__media
+        img.image(src=source)
     div.post-complex__info 
       div.post-complex__title= title
       div.post-complex__description= description

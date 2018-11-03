@@ -63,7 +63,7 @@ table {
   float: right;
   width: 4.6vw;
   height: 4.6vw;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: opacity 0.3s;
 }
 
@@ -660,16 +660,20 @@ table {
 }
 .square-thumbs-item__button {
   display: block;
-  width: 14.5%;
-  padding-top: 14.5%;
+/*  width: 14.5%;
+  padding-top: 14.5%;*/
 }
 .arrow-button {
-  background-image: url('static/square-thumbs-item/button.png');
+  background-image: url('static/arrow-button/button.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 25%;
   border: 1px solid #ffffff;
   border-radius: 100%;
+  width: 48.5px;
+  padding-top:48.5px;
+  width: 3.19vw;
+  padding-top: 3.19vw;
   transition: 
     border-color 0.8s,
     background-color 0.4s;
