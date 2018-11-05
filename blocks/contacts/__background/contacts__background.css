@@ -7,4 +7,5 @@
   float: right;
   clear: both;
   opacity: 0.8;
+  z-index: 10;
 }
