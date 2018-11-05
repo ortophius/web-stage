@@ -1,9 +1,12 @@
 .contacts {
-  position: relative;
+  position: fixed;
   float: right;
   clear: both;
   overflow: hidden;
-  transition: margin-right 0.4s ease-in-out;
+  top: 4.6vw;
+  right: 0px;
+  transition: 0.4s ease-in-out;
+  z-index: 101
 }
 .fa, .fas {
   font-size: 15px;
