@@ -1,28 +1,28 @@
-doctype html
-html
-  head
-    include /head/head.pug
-    +head('Kappe - Home', 'home.css')
-  body.reset.page
-    include /info/info.pug
-    include /left-bar/_shadow/left-bar_shadow.pug 
-    div.content
-      include /square-thumbs-item/square-thumbs-item.pug
-      div.square-thumbs
-        +square-thumb-item('#', 'static/square-thumbs-item/abc-alphabet-art-1337386.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/achievement-antique-business-6186.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/apple-blur-book-159886.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/apple-keyboard-buttons-computer-34490.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/art-black-background-bright-1162361.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/auto-automotive-brand-1236789.jpg', 'Cool App Design', 'development, mobile')
-        +square-thumb-item('#', 'static/square-thumbs-item/back-cellphone-close-up-1024634.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/batman-cartoon-color-1203777.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/beverage-blur-close-up-1467475.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/blur-branding-check-1032109.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/blur-close-up-depth-of-field-1478442.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/brand-chrome-classic-170809.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/brown-business-card-card-1349047.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/building-business-cctv-351263.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/conceptual-creativity-design-430205.jpg')
-        +square-thumb-item('#', 'static/square-thumbs-item/critique-design-designer-17845.jpg')
-    script(language='javascript', src='home.js')  
+extends /page/page.pug
+
+block vars
+  - var title = 'Kappe - Home'
+  - var name = 'home'
+
+block main-menu
+  include /left-bar/_shadow/left-bar_shadow.pug 
+
+block content
+  include /square-thumbs-item/square-thumbs-item.pug
+  div.square-thumbs
+    +square-thumb-item('#', 'static/square-thumbs-item/abc-alphabet-art-1337386.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/achievement-antique-business-6186.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/apple-blur-book-159886.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/apple-keyboard-buttons-computer-34490.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/art-black-background-bright-1162361.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/auto-automotive-brand-1236789.jpg', 'Cool App Design', 'development, mobile')
+    +square-thumb-item('#', 'static/square-thumbs-item/back-cellphone-close-up-1024634.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/batman-cartoon-color-1203777.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/beverage-blur-close-up-1467475.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/blur-branding-check-1032109.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/blur-close-up-depth-of-field-1478442.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/brand-chrome-classic-170809.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/brown-business-card-card-1349047.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/building-business-cctv-351263.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/conceptual-creativity-design-430205.jpg')
+    +square-thumb-item('#', 'static/square-thumbs-item/critique-design-designer-17845.jpg') 
