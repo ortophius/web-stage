@@ -1,0 +1,6 @@
+.about__staff-item {
+  width: calc(33.33% - 13.33px);
+  padding-top: calc(26.16% - 10px);
+  margin-bottom: 20px;
+  background-color: #2db8b6;
+}

@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    block vars
+    title #{title}
+    link(rel='stylesheet' href= name + '.css')
+  body.reset.page
+    include /info/info.pug
+    block main-menu
+      include /left-bar/left-bar.pug 
+    div.content
+      block content
+    script(language='javascript', src= name + '.js') 
