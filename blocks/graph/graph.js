@@ -1,9 +1,16 @@
 var graphs = $('.graph__bar');
 
 $.fn.animateNum = function(to, time) {
-  var from;
   var interval;
+  var val;
   
-  if (!isNaN(this.value)) from = this.value;
-  else from = 0;
+  interval = time / to;
+  val = 0;
+  elem = this;
+  console.log(elem);
+  console.log(interval);
+  var update = setInterval(function(){
+    $(elem).html(val);
+    if (val++ >= to) clearInterval(update);
+  }, interval)
 }

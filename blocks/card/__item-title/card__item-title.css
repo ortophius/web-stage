@@ -2,7 +2,8 @@
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-size: 1.25vw;
+  font-weight: 100;
   color: #000000;
-  padding-top: 25px;
-  padding-bottom: 8px;
+  padding-top: 1em;
+  padding-bottom: 0.33em;
 }
