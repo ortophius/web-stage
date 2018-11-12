@@ -1,9 +1,10 @@
 .card__item {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  font-size: 0.94vw;
   font-weight: 300;
   color: #a3a3a3;
-  padding-bottom: 25px;
+  padding-bottom: 1.38em;
   border-top: 1px solid #e5e5e5;
 }
 

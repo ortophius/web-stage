@@ -1,7 +1,7 @@
 .card__column {
   width: 100%;
-  padding: 0 30px 0 30px;
-  box-sizing: border-box;
+  padding: 0 30px 0 29px;
+  padding: 0 1.56vw 0 1.56vw;
 }
 
 .card__column:first-of-type {
