@@ -1,16 +1,15 @@
-var graphs = $('.graph__bar');
 
-$.fn.animateNum = function(to, time) {
-  var interval;
-  var val;
-  
-  interval = time / to;
-  val = 0;
-  elem = this;
-  console.log(elem);
-  console.log(interval);
-  var update = setInterval(function(){
-    $(elem).html(val);
-    if (val++ >= to) clearInterval(update);
-  }, interval)
-}
+(function( $ ){
+  $.fn.animateGraph = function(time) {
+    var timers = [];
+    this.each(function(index, elem){
+      var value = $(elem).find('.graph__line').attr('data-value');
+      var interval = time / value;
+      var timers[index]['value'] = 0;
+      var timers[index]['timer'] = setInterval(function(){
+        $(elem).find('graph__value').html(++timers[index]['value']);
+        if (timers[index]['value'] >= $(elem).find('.graph__line').attr('data-value')) clearInterval(timers[index]['timer']);
+      }, interval);
+    });
+  }
+})(jQuery)

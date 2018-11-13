@@ -4,6 +4,10 @@ block vars
   - var name = 'about'
   - var title = 'Kappe - About'
   
+//-
+  mixins
+include /graph/graph.mixin.pug
+  
 block content
   div.card
     div.card__content.about
@@ -43,7 +47,11 @@ block content
                 div.about__staff-position Web Developer
             div.about__staff-item
       div.card__column
-        div.card__item-title.card__item-title_top Our Skills
         div.card__item
-          div.graph
+          div.card__item-title.card__item-title_top Our Skills
+          +graph('website design', 83)
+          +graph('website development', 97)
+          +graph('plugins', 85)
+          +graph('frontend', 75)
+          
     
