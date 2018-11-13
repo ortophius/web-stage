@@ -8,4 +8,4 @@ $(document).on('DOMContentLoaded', () => {
       if (!$(item).hasClass('back-image_hidden')) $(item).css('opacity', '1');
     }
   });
-})
+});

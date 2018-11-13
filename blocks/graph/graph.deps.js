@@ -1,6 +1,10 @@
 ({
   block: 'graph',
-  mustDeps: {
+  mustDeps: [{
     block: 'jquery'
-  }
+  },
+  {
+    block: 'fonts',
+    elem: 'Roboto'
+  }]
 })

@@ -1,0 +1,6 @@
+mixin graph(title, value)
+  div.graph
+    div.graph__title= title
+      span.graph__value 0%
+    div.graph__bar
+      div.graph__line(data-value= value)

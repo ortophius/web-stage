@@ -1,0 +1,9 @@
+.graph__line {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: #e2e2e2;
+  transition: width 0.8s;
+}
