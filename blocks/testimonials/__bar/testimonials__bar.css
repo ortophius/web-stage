@@ -1,0 +1,8 @@
+.testimonials__bar {
+  background-color: #1ab5b3;
+  color: #ffffff;
+  height: 5.33em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
