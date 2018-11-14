@@ -588,6 +588,8 @@ table {
   align-items: stretch;
   padding-top: 30px;
   padding-top: 1.56vw;
+  padding-bottom: 30px;
+  padding-bottom: 1.56vw;
 }
 .card__column {
   width: 100%;
@@ -604,8 +606,6 @@ table {
   font-size: 0.94vw;
   font-weight: 300;
   color: #a3a3a3;
-  padding-bottom: 1.38em;
-  border-top: 1px solid #e5e5e5;
 }
 
 .card__item:first-of-type {
@@ -620,6 +620,7 @@ table {
   background-size: cover;
   background-position: center center;
   opacity: 0;
+  transition: opacity 0.3s;
 }
 .card__item-title {
   font-family: 'Roboto', sans-serif;
@@ -627,8 +628,13 @@ table {
   font-size: 1.25vw;
   font-weight: 100;
   color: #000000;
-  padding-top: 1em;
+  padding-top: 1.05em;
   padding-bottom: 0.33em;
+}
+
+.card__item-title:first-child {
+  line-height: 0.6;
+  padding-bottom: 0.7em;
 }
 .card__description {
   font-family: 'Roboto', sans-serif;
@@ -639,6 +645,11 @@ table {
 
 .card__description + .card__description {
   margin-top: 1.7em;
+}
+.card__v-line {
+  min-height: 1px;
+  background-color: #e5e5e5;
+  margin-top: 3%;
 }
 .card__item-title_high {
   padding-bottom: 0.83em;
@@ -709,11 +720,15 @@ table {
 .card__item-title_top {
   padding-top: 0px; 
 }
+.graph + .graph {
+  padding-top: 1.4%;
+}
 .graph__title {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 15px;
   font-size: 0.78vw;
+  line-height: 2;
   color: #727272;
   text-transform: capitalize;
 }
@@ -726,7 +741,7 @@ table {
   float: right;
 }
 .graph__bar {
-  min-height: 20px;
+  padding-top: 4.6%;
   border: 1px solid #e2e2e2;
   position: relative;
 }
@@ -738,4 +753,53 @@ table {
   height: 100%;
   background-color: #e2e2e2;
   transition: width 0.8s;
+}
+.testimonials {
+  font-size: 15px;
+  font-size: 0.78vw;
+}
+.testimonials__bar {
+  background-color: #1ab5b3;
+  color: #ffffff;
+  height: 5.33em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.testimonials__photo {
+  height: 5.33em;
+  width: 5.33em;
+}
+.testimonials__name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 1.53em;
+}
+.testimonials__description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 1em 1.6em 1em 1.6em;
+  color: #a3a3a3;
+  border: 1px solid #ebebeb;
+  border-top: 0px;
+  line-height: 1.7;
+}
+.list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-size: 0.73vw;
+  font-weight: 300;
+  color: #848484;
+  list-style-type: none;
+}
+.list__item {
+  line-height: 2;
+}
+
+.list__item::before {
+  content: '•';
+  margin-right: 0.43em;
 }

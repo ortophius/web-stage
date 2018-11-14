@@ -1,0 +1,10 @@
+.testimonials__description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 1em 1.6em 1em 1.6em;
+  color: #a3a3a3;
+  border: 1px solid #ebebeb;
+  border-top: 0px;
+  line-height: 1.7;
+}

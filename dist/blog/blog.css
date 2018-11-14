@@ -648,6 +648,7 @@ table {
   background-size: cover;
   background-position: center center;
   opacity: 0;
+  transition: opacity 0.3s;
 }
 .image-slider__slide {
   position: absolute;
