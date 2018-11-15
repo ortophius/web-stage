@@ -12,60 +12,58 @@ block content
   div.card
     div.card__content.about
       div.card__column
-        div.card__item
-          div.about__title-image.back-image(data-img='static/about/title.jpeg')
-          div.card__item-title Who We Are
-          p.card__description This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
-          p.card__description Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
-          div.card__v-line
-          div.card__item-title.card__item-title_high Our Staff
-          div.about__staff
-            div.about__staff-item.back-image(data-img='static/about/staff1.jpeg').hover-overlay
-              div.hover-overlay__background
-              div.hover-overlay__container
-                div.about__staff-name John Smith
-                div.about__staff-position Web Developer
-            div.about__staff-item.back-image(data-img='static/about/staff2.jpeg').hover-overlay
-              div.hover-overlay__background
-              div.hover-overlay__container
-                div.about__staff-name John Smith
-                div.about__staff-position Web Developer
-            div.about__staff-item.back-image(data-img='static/about/staff3.jpeg').hover-overlay
-              div.hover-overlay__background
-              div.hover-overlay__container
-                div.about__staff-name John Smith
-                div.about__staff-position Web Developer
-            div.about__staff-item.back-image(data-img='static/about/staff4.jpeg').hover-overlay
-              div.hover-overlay__background
-              div.hover-overlay__container
-                div.about__staff-name John Smith
-                div.about__staff-position Web Developer
-            div.about__staff-item.back-image(data-img='static/about/staff5.jpeg').hover-overlay
-              div.hover-overlay__background
-              div.hover-overlay__container
-                div.about__staff-name John Smith
-                div.about__staff-position Web Developer
-            div.about__staff-item
+        div.about__title-image.back-image(data-img='static/about/title.jpeg')
+        div.card__item-title Who We Are
+        p.card__description This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+        p.card__description Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+        div.card__v-line
+        div.card__item-title.card__item-title_bold.card__item-title_high Our Staff
+        div.about__staff
+          div.about__staff-item.back-image(data-img='static/about/staff1.jpeg').hover-overlay
+            div.hover-overlay__background
+            div.hover-overlay__container
+              div.about__staff-name John Smith
+              div.about__staff-position Web Developer
+          div.about__staff-item.back-image(data-img='static/about/staff2.jpeg').hover-overlay
+            div.hover-overlay__background
+            div.hover-overlay__container
+              div.about__staff-name John Smith
+              div.about__staff-position Web Developer
+          div.about__staff-item.back-image(data-img='static/about/staff3.jpeg').hover-overlay
+            div.hover-overlay__background
+            div.hover-overlay__container
+              div.about__staff-name John Smith
+              div.about__staff-position Web Developer
+          div.about__staff-item.back-image(data-img='static/about/staff4.jpeg').hover-overlay
+            div.hover-overlay__background
+            div.hover-overlay__container
+              div.about__staff-name John Smith
+              div.about__staff-position Web Developer
+          div.about__staff-item.back-image(data-img='static/about/staff5.jpeg').hover-overlay
+            div.hover-overlay__background
+            div.hover-overlay__container
+              div.about__staff-name John Smith
+              div.about__staff-position Web Developer
+          div.about__staff-item
       div.card__column
-        div.card__item
-          div.card__item-title.card__item-title.card__item-title_top Our Skills
-          +graph('website design', 89)
-          +graph('website development', 97)
-          +graph('plugins', 85)
-          +graph('front end', 75)
-          div.card__item-title.card__item-title_high Testimonials
-          div.testimonials
-            div.testimonials__bar
-              div.testimonials__photo.back-image(data-img='static/testimonials/photo.jpeg')
-              div.testimonials__name Collis Ta’eed - CEO at Envato
-            div.testimonials__description Sollicitudin lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
-          div.card__item-title Services
-          ul.list
-            li.list__item Web design
-            li.list__item Photography
-            li.list__item Plugin development
-            li.list__item Frontend
-            li.list__item Design from scratch
-            li.list__item Website Maintenance
+        div.card__item-title.card__item-title Our Skills
+        +graph('website design', 89)
+        +graph('website development', 97)
+        +graph('plugins', 85)
+        +graph('front end', 75)
+        div.card__item-title.card__item-title_high Testimonials
+        div.testimonials
+          div.testimonials__bar
+            div.testimonials__photo.back-image(data-img='static/testimonials/photo.jpeg')
+            div.testimonials__name Collis Ta’eed - CEO at Envato
+          div.testimonials__description Sollicitudin lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.
+        div.card__item-title.card__item-title_bold Services
+        ul.list
+          li.list__item Web design
+          li.list__item Photography
+          li.list__item Plugin development
+          li.list__item Frontend
+          li.list__item Design from scratch
+          li.list__item Website Maintenance
           
     

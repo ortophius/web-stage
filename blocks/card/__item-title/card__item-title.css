@@ -11,4 +11,5 @@
 .card__item-title:first-child {
   line-height: 0.6;
   padding-bottom: 0.7em;
+  padding-top: 0px; 
 }

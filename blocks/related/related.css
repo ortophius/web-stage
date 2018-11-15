@@ -1,0 +1,4 @@
+.related {
+  display: flex;
+  flex-wrap: wrap;
+} 

@@ -1,0 +1,17 @@
+.tags__item {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-size: 0.65vw;
+  color: #a3a3a3;
+  text-decoration: none;
+  border: 1px solid #e2e2e2;
+  border-radius: 10%/30%;
+  padding: 1em 1.5em;
+  margin-right: 1em;
+}
+
+.tags__item:hover {
+  background-color: #3fbcba;
+  color: #ffffff;
+}
