@@ -1,0 +1,67 @@
+extends /page/page.pug
+
+block vars
+  - var name = 'work'
+  - var title = 'Kappe - Single Work'
+  
+block content
+  div.card
+    div.card__content.work
+      div.card__column
+        div.image-slider.image-slider_control_tabs.work__main-image
+          div.back-image.back-image_hidden.image-slider__slide.image-slider__slide_active(data-img='static/work/1.jpeg')
+          div.back-image.back-image_hidden.image-slider__slide(data-img='static/work/2.jpeg')
+          div.back-image.back-image_hidden.image-slider__slide(data-img='static/work/3.jpeg')
+          div.back-image.back-image_hidden.image-slider__slide(data-img='static/work/4.jpeg')
+        div.card__item-title.card__item-title_bold.work__title Heavy Sand - Creative Photography
+        p.card__description Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+        p.card__description Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.    
+        div.card__v-line
+        div.card__item-title.card__item-title_high.card__item-title_bold Related Projects
+        div.related
+          a.related__item.back-image(data-img='static/related/1.jpeg', href='javascript:void(0)')
+          a.related__item.back-image(data-img='static/related/2.jpeg', href='javascript:void(0)')
+          a.related__item.back-image(data-img='static/related/3.jpeg', href='javascript:void(0)')
+      div.card__column
+        div.project-info
+          div.project-info__title Project Info
+          div.project-info__item
+            a.project-info__icon.fas.fa-user-alt(href='javascript:void(0)')
+            | premiumlayers
+          div.project-info__item
+            a.project-info__icon.fas.fa-heart(href='javascript:void(0)')
+            | 138 Likes
+          div.project-info__item
+            a.project-info__icon.fas.fa-calendar-alt(href='javascript:void(0)')
+            | 25 December, 2013
+          div.project-info__item
+            a.project-info__icon.fas.fa-link(href='javascript:void(0)')
+            | 4 Comments
+        div.card__item-title.card__item-title_bold.card__item-title_high Tags
+        div.tags
+          a.tags__item(href="javascript:void(0)") web design
+          a.tags__item(href="javascript:void(0)") photgraphy
+          a.tags__item(href="javascript:void(0)") development
+          a.tags__item(href="javascript:void(0)") php
+          a.tags__item(href="javascript:void(0)") ecommerce
+          a.tags__item(href="javascript:void(0)") graphic
+        div.card__item-title.card__item-title_high Project Gallery
+        div.project-gallery
+          a.project-gallery__item.back-image(data-img='static/project-gallery/1.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/2.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/3.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/4.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/5.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/6.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/7.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/8.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/9.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/10.jpeg', href="javascript:void(0)")
+          a.project-gallery__item.back-image(data-img='static/project-gallery/11.jpeg', href="javascript:void(0)")
+        div.card__item-title.card__item-title_bold Project Features
+        ul.features
+          li.features__item Responsive layout
+          li.features__item Font Awesome icons
+          li.features__item Clean & commented code
+          li.features__item Pixel perfect design
+          li.features__item Higly customizable

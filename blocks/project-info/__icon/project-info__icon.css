@@ -1,0 +1,18 @@
+.project-info__icon {
+  font-size: 12px;
+  font-size: 0.62vw;
+  text-decoration: none;
+  color: #1ab5b3;
+  border: 1px solid #1ab5b3;
+  border-radius: 100%;
+  padding: 0.8em;
+  margin-right: 1em;
+  transition: 
+    color 0.3s, 
+    background-color 0.3s;
+}
+
+.project-info__icon:hover {
+  color: #ffffff;
+  background-color: #1ab5b3;
+}
