@@ -1,0 +1,5 @@
+.comment-form__message {
+  height: 100%;
+  flex: 2;
+  resize: none;
+}

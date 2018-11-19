@@ -1,0 +1,8 @@
+.comment__sub-comment {
+  margin-top: 33px;
+  margin-left: 40px;
+}
+
+.comment__sub-comment > .comment__sub-comment {
+  margin-left: 101px;
+}
