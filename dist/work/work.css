@@ -41,13 +41,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@font-face {
-  font-family: "Soho Gothic Light";
-  src: url('static/page/SohoGothicPro-Light.otf')
-}
-
 .page {
-  font-family: "Soho Gothic Light", Sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .info {
   position: fixed;
@@ -708,6 +703,111 @@ table {
   width: 33.33%;
   padding-top: 25.26%;
   position: relative;
+}
+.comment {
+  
+}
+
+.comment + .comment {
+  margin-top: 33px;
+}
+.comment__box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.comment__avatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 21px;
+  flex-shrink: 0;
+}
+.comment__wrap {
+  
+}
+.comment__head {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.comment__name {
+  font-size: 14px;
+  color: #000000;
+}
+.comment__time {
+  color: #d1d1d1;
+}
+
+.comment__time:before {
+  content: " / ";
+}
+.comment__head-line {
+  min-height: 1px;
+  background-color: #e5e5e5;
+  max-width: 185px;
+  margin-bottom: 10px;
+}
+.comment__sub-comment {
+  margin-top: 33px;
+  margin-left: 40px;
+}
+
+.comment__sub-comment > .comment__sub-comment {
+  margin-left: 101px;
+}
+.comment__tail {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border-width: 0 0 1px 1px;
+  border-color: #dddddd;  
+  border-style: solid;
+  margin-right: 21px;
+  flex-shrink: 0;
+}
+.comment-form {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.comment-form__column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-form__column + .comment-form__column {
+  margin-left: 10px;
+}
+
+.comment-form__item_invalid {
+  border: 1px solid red;
+}
+.comment-form__item {
+  font-size: 14px;
+  color: #848484;
+  padding: 1em;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  height: 3.42em;
+}
+
+.comment-form__item:focus {
+  color: #000000;
+}
+
+.comment-form__item + .comment-form__item {
+  margin-top: 10px;
+}
+.comment-form__message {
+  height: 100%;
+  flex: 2;
+  resize: none;
+}
+.comment-form__submit, .comment-form__submit:focus {
+  color: #ffffff;
+  background-color: #1ab5b3;
+  border: 0px;
 }
 
 .project-info__title {

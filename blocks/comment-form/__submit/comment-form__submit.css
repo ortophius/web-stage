@@ -1,0 +1,5 @@
+.comment-form__submit, .comment-form__submit:focus {
+  color: #ffffff;
+  background-color: #1ab5b3;
+  border: 0px;
+}

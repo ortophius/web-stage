@@ -1,0 +1,6 @@
+.comment__avatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 21px;
+  flex-shrink: 0;
+}

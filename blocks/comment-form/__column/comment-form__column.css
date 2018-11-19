@@ -1,0 +1,10 @@
+.comment-form__column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-form__column + .comment-form__column {
+  margin-left: 10px;
+}

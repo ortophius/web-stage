@@ -1,0 +1,7 @@
+.comment__time {
+  color: #d1d1d1;
+}
+
+.comment__time:before {
+  content: " / ";
+}
