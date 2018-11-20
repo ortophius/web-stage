@@ -1,14 +1,5 @@
 .comment-form__item {
-  font-size: 14px;
-  color: #848484;
-  padding: 1em;
-  flex-shrink: 0;
-  box-sizing: border-box;
-  height: 3.42em;
-}
-
-.comment-form__item:focus {
-  color: #000000;
+  flex: 1 0;
 }
 
 .comment-form__item + .comment-form__item {

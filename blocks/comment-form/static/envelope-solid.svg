@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   data-prefix="fas"
+   data-icon="envelope"
+   class="svg-inline--fa fa-envelope fa-w-16"
+   role="img"
+   viewBox="0 0 512 512"
+   id="svg4279"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="envelope-solid.svg">
+  <metadata
+     id="metadata4287">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4285" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     id="namedview4283"
+     showgrid="false"
+     inkscape:snap-object-midpoints="false"
+     inkscape:zoom="1.3558044"
+     inkscape:cx="405.35782"
+     inkscape:cy="256"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4279" />
+  <path
+     d="m 379.15,223.4 c 1.95,-1.55 4.85,-0.1 4.85,2.35 L 384,328 c 0,13.25 -10.75,24 -24,24 l -208,0 c -13.25,0 -24,-10.75 -24,-24 l 0,-102.2 c 0,-2.5 2.85,-3.9 4.85,-2.35 11.2,8.7 26.05,19.75 77.05,56.8 10.55,7.7 28.35,23.9 46.1,23.8 17.85,0.15 36,-16.4 46.15,-23.8 51,-37.05 65.8,-48.15 77,-56.85 z M 256,288 c 11.6,0.2 28.3,-14.6 36.7,-20.7 66.35,-48.15 71.4,-52.35 86.7,-64.35 2.9,-2.25 4.6,-5.75 4.6,-9.45 l 0,-9.5 c 0,-13.25 -10.75,-24 -24,-24 l -208,0 c -13.25,0 -24,10.75 -24,24 l 0,9.5 c 0,3.7 1.7,7.15 4.6,9.45 15.3,11.95 20.35,16.2 86.7,64.35 8.4,6.1 25.1,20.9 36.7,20.7 z"
+     id="path4281"
+     inkscape:connector-curvature="0"
+     style="fill:currentColor" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:1.13569319;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4289"
+     cx="256"
+     cy="256"
+     r="199.43216" />
+</svg>
