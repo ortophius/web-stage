@@ -96,12 +96,17 @@ block content
         div.card__item-title.card__item-title_high.card__item-title_bold Leave a comment
         form.comment-form
           div.comment-form__column
-            input.comment-form__name.comment-form__item(placeholder="Name")
-            input.comment-form__email.comment-form__item(placeholder="e-mail")
-            input.comment-form__website.comment-form__item(placeholder="website")
+            div.comment-form__item.comment-form__item_icon_name
+              input.comment-form__input.comment-form__name(placeholder="Name")
+            div.comment-form__item.comment-form__item_icon_email
+              input.comment-form__input.comment-form__email.comment-form__item(placeholder="e-mail")
+            div.comment-form__item.comment-form__item_icon_website
+              input.comment-form__input.comment-form__website.comment-form__item(placeholder="website")
           div.comment-form__column
-            textarea.comment-form__message.comment-form__item(placeholder="Message")
-            input.comment-form__submit.comment-form__item(type="submit", value='POST A COMMENT')
+            div.comment-form__item.comment-form__item_rows_2
+              textarea.comment-form__input.comment-form__message(placeholder="Message")
+            div.comment-form__item
+              input.comment-form__submit.comment-form__item(type="submit", value='POST A COMMENT')
       div.card__column
         div.project-info
           div.project-info__title Project Info

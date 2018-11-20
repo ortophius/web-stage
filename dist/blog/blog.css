@@ -608,6 +608,7 @@ table {
 }
 .post-complex__media {
   background-color: #d7d7d7;
+  font-size: 0px;
 }
 .post-complex__media_size_large {
   padding-top: 90.13%;
