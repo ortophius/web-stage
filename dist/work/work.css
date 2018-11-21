@@ -779,9 +779,6 @@ table {
 .comment-form__column + .comment-form__column {
   margin-left: 10px;
 }
-.comment-form__item_invalid {
-  border: 1px solid red;
-}
 .comment-form__item {
   flex: 1 0;
 }
@@ -789,13 +786,26 @@ table {
 .comment-form__item + .comment-form__item {
   margin-top: 10px;
 }
-.comment-form__item_icon_name:before {
+.comment-form__item_icon:before {
   display: inline-block;
   content: '';
-  background-image: url('static/comment-form/link-solid.svg');
-  background-size: 24px;
-  width: 24px;
-  height: 24px;
+  background-image: url(static/comment-form/link-solid.svg);
+  background-size: 33px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  float: left;
+  position: absolute;
+}
+
+.comment-form__item_icon .comment-form__input {
+  padding-left: 58px;
+}
+.comment-form__item_icon_name:before {
+  background-image: url(static/comment-form/user-alt-solid.svg);
 }
 .comment-form__input {
   font-size: 14px;
@@ -813,6 +823,9 @@ table {
 }
 .comment-form__name{
 
+}
+.comment-form__item_icon_email:before {
+  background-image: url(static/comment-form/envelope-solid.svg);
 }
 .comment-form__item_rows_2 {
   flex: 2 0 10px;
@@ -908,4 +921,7 @@ table {
   content: '\f00c';
   font-family: 'Font Awesome 5 Free';
   margin-right: 0.5em;
+}
+.comment-form__input_invalid {
+  border: 1px solid red;
 }
