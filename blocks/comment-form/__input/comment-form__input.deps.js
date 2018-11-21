@@ -1,7 +1,8 @@
 ({
-  mustDeps: {
+  tech: 'css',
+  shouldDeps: {
     block: 'comment-form',
-    elem: 'item',
+    elem: 'input',
     mod: 'invalid'
   }
 })

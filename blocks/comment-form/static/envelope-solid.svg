@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,20 +45,20 @@
      id="namedview4283"
      showgrid="false"
      inkscape:snap-object-midpoints="false"
-     inkscape:zoom="1.3558044"
-     inkscape:cx="405.35782"
-     inkscape:cy="256"
+     inkscape:zoom="1.4099609"
+     inkscape:cx="382.25898"
+     inkscape:cy="222.40588"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4279" />
   <path
-     d="m 379.15,223.4 c 1.95,-1.55 4.85,-0.1 4.85,2.35 L 384,328 c 0,13.25 -10.75,24 -24,24 l -208,0 c -13.25,0 -24,-10.75 -24,-24 l 0,-102.2 c 0,-2.5 2.85,-3.9 4.85,-2.35 11.2,8.7 26.05,19.75 77.05,56.8 10.55,7.7 28.35,23.9 46.1,23.8 17.85,0.15 36,-16.4 46.15,-23.8 51,-37.05 65.8,-48.15 77,-56.85 z M 256,288 c 11.6,0.2 28.3,-14.6 36.7,-20.7 66.35,-48.15 71.4,-52.35 86.7,-64.35 2.9,-2.25 4.6,-5.75 4.6,-9.45 l 0,-9.5 c 0,-13.25 -10.75,-24 -24,-24 l -208,0 c -13.25,0 -24,10.75 -24,24 l 0,9.5 c 0,3.7 1.7,7.15 4.6,9.45 15.3,11.95 20.35,16.2 86.7,64.35 8.4,6.1 25.1,20.9 36.7,20.7 z"
+     d="m 317.575,239.7 c 0.975,-0.775 2.425,-0.05 2.425,1.175 L 320,292 c 0,6.625 -5.375,12 -12,12 l -104,0 c -6.625,0 -12,-5.375 -12,-12 l 0,-51.1 c 0,-1.25 1.425,-1.95 2.425,-1.175 5.6,4.35 13.025,9.875 38.525,28.4 5.275,3.85 14.175,11.95 23.05,11.9 8.925,0.075 18,-8.2 23.075,-11.9 25.5,-18.525 32.9,-24.075 38.5,-28.425 z M 256,272 c 5.8,0.1 14.15,-7.3 18.35,-10.35 33.175,-24.075 35.7,-26.175 43.35,-32.175 1.45,-1.125 2.3,-2.875 2.3,-4.725 l 0,-4.75 c 0,-6.625 -5.375,-12 -12,-12 l -104,0 c -6.625,0 -12,5.375 -12,12 l 0,4.75 c 0,1.85 0.85,3.575 2.3,4.725 7.65,5.975 10.175,8.1 43.35,32.175 4.2,3.05 12.55,10.45 18.35,10.35 z"
      id="path4281"
      inkscape:connector-curvature="0"
-     style="fill:currentColor" />
+     style="fill:#1ab5b3;fill-opacity:1" />
   <circle
-     style="fill:none;stroke:#000000;stroke-width:1.13569319;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:none;stroke:#1ab5b3;stroke-width:10;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1"
      id="path4289"
      cx="256"
      cy="256"
