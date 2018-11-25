@@ -140,9 +140,8 @@ $('.comment-form').each(function(index, form){
         var elem = $(e.target).find('.'+check.class);
         console.log(elem.val(), check.regExp, check.regExp.test(elem.val()));
         if (!check.regExp.test(elem.val())) {
-          var color = elem.css('border-color');
-          elem.css('border-color', '#ff0000');
-          elem.animate({borderColor: color}, 600);
+          elem.addClass('comment-form__input_invalid');
+          setTimeout(function(){elem.removeClass('comment-form__input_invalid')}, 0);
           validated = false;
         }
       })
