@@ -786,10 +786,10 @@ table {
 .comment-form__item + .comment-form__item {
   margin-top: 10px;
 }
-.comment-form__item_icon:before {
+
+div[class*="comment-form__item_icon"]:before {
   display: inline-block;
   content: '';
-  background-image: url(static/comment-form/link-solid.svg);
   background-size: 33px;
   background-repeat: no-repeat;
   background-position: center;
@@ -801,7 +801,7 @@ table {
   position: absolute;
 }
 
-.comment-form__item_icon .comment-form__input {
+div[class*="comment-form__item_icon"] .comment-form__input {
   padding-left: 58px;
 }
 .comment-form__item_icon_name:before {
@@ -816,6 +816,7 @@ table {
   height: 3.42em;
   border: 1px solid #eaeaea;
   width: 100%;
+  transition: border-color 0.3s;
 }
 
 .comment-form__input:focus {
@@ -827,7 +828,10 @@ table {
 .comment-form__item_icon_email:before {
   background-image: url(static/comment-form/envelope-solid.svg);
 }
-.comment-form__item_rows_2 {
+.comment-form__item_icon_website:before {
+  background-image: url(static/comment-form/link-solid.svg);
+}
+.comment-form__item_high {
   flex: 2 0 10px;
 }
 .comment-form__message {
@@ -923,5 +927,6 @@ table {
   margin-right: 0.5em;
 }
 .comment-form__input_invalid {
+  transition: 0s;
   border: 1px solid red;
 }

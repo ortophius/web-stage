@@ -5,3 +5,21 @@
 .comment-form__item + .comment-form__item {
   margin-top: 10px;
 }
+
+div[class*="comment-form__item_icon"]:before {
+  display: inline-block;
+  content: '';
+  background-size: 33px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  border-right: 1px solid #eaeaea;
+  box-sizing: border-box;
+  float: left;
+  position: absolute;
+}
+
+div[class*="comment-form__item_icon"] .comment-form__input {
+  padding-left: 58px;
+}

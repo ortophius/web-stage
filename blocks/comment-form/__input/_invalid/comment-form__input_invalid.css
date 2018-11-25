@@ -1,3 +1,4 @@
 .comment-form__input_invalid {
+  transition: 0s;
   border: 1px solid red;
 }
