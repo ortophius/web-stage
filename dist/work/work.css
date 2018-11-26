@@ -567,13 +567,20 @@ table {
   font-size: 0.61vw;
 }
 .content{
+  font-size: 0px;
   background-color: #b4b7b8;
   min-height: 100vh;
   padding-left: 15.625%;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 .card {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-size: 0.94vw;
+  font-weight: 300;
+  color: #a3a3a3;
   padding: 1.3vw 1.3vw 1.56vw 1.3vw;
 }
 .card__content {
@@ -587,11 +594,6 @@ table {
   padding-bottom: 1.56vw;
 }
 .card__column {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-size: 0.94vw;
-  font-weight: 300;
-  color: #a3a3a3;
   width: 100%;
   padding: 0 30px 0 29px;
   padding: 0 1.56vw 0 1.56vw;
@@ -844,6 +846,7 @@ div[class*="comment-form__item_icon"] .comment-form__input {
   color: #ffffff;
   background-color: #1ab5b3;
   border: 0px;
+  cursor: pointer;
 }
 
 .project-info__title {

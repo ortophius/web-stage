@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   data-prefix="fas"
+   data-icon="user-alt"
+   class="svg-inline--fa fa-user-alt fa-w-16"
+   role="img"
+   viewBox="0 0 512 512"
+   id="svg3400"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="user-alt-solid.svg">
+  <metadata
+     id="metadata3408">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3406" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     id="namedview3404"
+     showgrid="false"
+     inkscape:zoom="1.0123228"
+     inkscape:cx="205.75177"
+     inkscape:cy="224.48121"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3400" />
+  <path
+     d="m 256,264 c 19.875,0 36,-16.125 36,-36 0,-19.875 -16.125,-36 -36,-36 -19.875,0 -36,16.125 -36,36 0,19.875 16.125,36 36,36 z m 32,8 -13.775,0 c -5.55,2.55 -11.725,4 -18.225,4 -6.5,0 -12.65,-1.45 -18.225,-4 L 224,272 c -17.675,0 -32,14.325 -32,32 l 0,4 c 0,6.625 5.375,12 12,12 l 104,0 c 6.625,0 12,-5.375 12,-12 l 0,-4 c 0,-17.675 -14.325,-32 -32,-32 z"
+     id="path3402"
+     inkscape:connector-curvature="0"
+     style="fill:#1ab5b3;fill-opacity:1" />
+  <circle
+     style="fill:none;stroke:#1ab5b3;stroke-width:10;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1;stroke-linecap:butt"
+     id="path3410"
+     cx="255.5"
+     cy="256.5"
+     r="199.50125" />
+</svg>
