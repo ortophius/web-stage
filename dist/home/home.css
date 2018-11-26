@@ -570,11 +570,13 @@ table {
   font-size: 0.61vw;
 }
 .content{
+  font-size: 0px;
   background-color: #b4b7b8;
   min-height: 100vh;
   padding-left: 15.625%;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 .square-thumbs {
   width: 100%;

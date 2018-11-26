@@ -1,0 +1,12 @@
+.contact {
+  width: 40%;
+  position: relative;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+@media (max-width: 1200px){
+  .contact {
+    width: auto;
+  }
+}
