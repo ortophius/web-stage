@@ -21,7 +21,8 @@ const builder = bundleBuilder({
         }
     },
     levels: [
-        'blocks'
+      'blocks',
+      'mobile'
     ]
 });
 
@@ -86,5 +87,5 @@ gulp.task('html', () => {
 
 gulp.task('build', gulp.series('deps', 'html'));
 gulp.task('watch', function(){
-  gulp.watch(['bundles/**/*', 'blocks/**/*'], gulp.series('build'));
+  gulp.watch(['bundles/**/*', 'blocks/**/*', 'mobile/**/*'], gulp.series('build'));
 });
