@@ -575,12 +575,6 @@ table {
   z-index: 1;
   box-sizing: border-box;
 }
-.content_padded {
-  padding-left: 16.625%;
-  padding-top: 1vw;
-  padding-right: 1vw;
-  padding-bottom: 1vw;
-}
 .fullpage-map {
   top: 0px;
   left: 0px;
@@ -593,10 +587,10 @@ table {
   z-index: 9;
 }
 .contact {
-  width: 40%;
+  width: 50%;
   position: relative;
-  background-color: #ffffff;
   z-index: 10;
+  padding: 1vw 1vw 1vw 1vw;
 }
 
 @media (max-width: 1200px){
@@ -611,6 +605,7 @@ table {
   font-weight: 300;
   color: #a3a3a3;
   padding: 1.3vw 1.3vw 1.56vw 1.3vw;
+  background-color: #ffffff;
 }
 .card__item-title {
   font-family: 'Roboto', sans-serif;
