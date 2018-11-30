@@ -495,7 +495,7 @@ table {
 }
 @media (max-width: 1000px){
   .main-menu__link{
-    font-size: 14px;
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -636,7 +636,7 @@ table {
 @media (max-width: 1000px){
   .content {
     padding-left: 1vw;
-    padding-top: 42px;
+    padding-top: 72px;
   }
 }
 .fullpage-map {
@@ -669,8 +669,14 @@ table {
   font-weight: 300;
   color: #a3a3a3;
   padding: 1.3vw 1.3vw 1.56vw 1.3vw;
+  padding: 25px;
   background-color: #ffffff;
   background-clip: content-box;
+}
+@media (max-width: 1000px){
+  .card{
+    padding: 25px;
+  }
 }
 .card_noclip {
   background-clip: border-box;
@@ -690,6 +696,11 @@ table {
   padding-bottom: 0.7em;
   padding-top: 0px; 
 }
+@media (max-width: 1000px){
+  .card__item-title{
+    font-size: 32px;
+  }
+}
 .card__item-title_bold {
   font-weight: 300;
 }
@@ -703,6 +714,11 @@ table {
 .card__description + .card__description {
   margin-top: 1.7em;
 }
+@media (max-width: 1000px){
+  .card__description{
+    font-size: 24px;
+  }
+}
 .card__v-line {
   min-height: 1px;
   background-color: #e5e5e5;
@@ -715,6 +731,11 @@ table {
   display: flex;
   flex-direction: row;
   align-items: stretch;
+}
+@media (max-width: 1000px){
+  .comment-form{
+    flex-direction: column;
+  }
 }
 .comment-form__column {
   width: 100%;
@@ -751,6 +772,16 @@ div[class*="comment-form__item_icon"]:before {
 div[class*="comment-form__item_icon"] .comment-form__input {
   padding-left: 58px;
 }
+@media (max-width: 1000px){
+  div[class*="comment-form__item_icon"]:before{
+    background-size: 66px;
+    width: 83px;
+    height: 83px;
+  }
+  div[class*="comment-form__item_icon"] .comment-form__input{
+    padding-left: 100px;
+  } 
+}
 .comment-form__item_icon_name:before {
   background-image: url(static/comment-form/user-alt-solid.svg);
 }
@@ -768,6 +799,11 @@ div[class*="comment-form__item_icon"] .comment-form__input {
 
 .comment-form__input:focus {
   color: #000000;
+}
+@media (max-width: 1000px){
+  .comment-form__input{
+    font-size: 24px;
+  }
 }
 .comment-form__name{
 

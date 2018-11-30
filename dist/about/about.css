@@ -495,7 +495,7 @@ table {
 }
 @media (max-width: 1000px){
   .main-menu__link{
-    font-size: 14px;
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -636,7 +636,7 @@ table {
 @media (max-width: 1000px){
   .content {
     padding-left: 1vw;
-    padding-top: 42px;
+    padding-top: 72px;
   }
 }
 .card {
@@ -646,8 +646,14 @@ table {
   font-weight: 300;
   color: #a3a3a3;
   padding: 1.3vw 1.3vw 1.56vw 1.3vw;
+  padding: 25px;
   background-color: #ffffff;
   background-clip: content-box;
+}
+@media (max-width: 1000px){
+  .card{
+    padding: 25px;
+  }
 }
 .card__content {
   background-color: #ffffff;
@@ -693,6 +699,11 @@ table {
   padding-bottom: 0.7em;
   padding-top: 0px; 
 }
+@media (max-width: 1000px){
+  .card__item-title{
+    font-size: 32px;
+  }
+}
 .card__description {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -702,6 +713,11 @@ table {
 
 .card__description + .card__description {
   margin-top: 1.7em;
+}
+@media (max-width: 1000px){
+  .card__description{
+    font-size: 24px;
+  }
 }
 .card__v-line {
   min-height: 1px;

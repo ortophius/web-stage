@@ -495,7 +495,7 @@ table {
 }
 @media (max-width: 1000px){
   .main-menu__link{
-    font-size: 14px;
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -636,7 +636,7 @@ table {
 @media (max-width: 1000px){
   .content {
     padding-left: 1vw;
-    padding-top: 42px;
+    padding-top: 72px;
   }
 }
 .blog {
