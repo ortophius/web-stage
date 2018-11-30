@@ -1,0 +1,9 @@
+@media (max-width: 1000px){
+  .left-bar {
+    float: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+  }
+}

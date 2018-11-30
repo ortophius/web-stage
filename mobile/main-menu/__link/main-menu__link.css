@@ -1,0 +1,13 @@
+@media (max-width: 1000px){
+  .main-menu__link{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em;
+    background-image: none;
+    box-shadow: none;
+    line-height: inherit;
+  }
+}
