@@ -6,6 +6,8 @@
 
 Все необходимые модули указаны в [package.json](https://github.com/ortophius/web-stage/blob/master/package.json). Для сборки нужен Gulp 4 (gulp@next на данный момент).
 
+Посмотреть результат можно [здесь](https://ortophius.github.io/web-stage/dist/home/home.html).
+
 Сборка: `npm run build`
 
 Сборка "на лету": `npm run watch`
