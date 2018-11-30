@@ -1,0 +1,5 @@
+@media (max-width: 1000px){
+ .main-menu__link_last{
+    border-bottom: none;
+  }
+}
