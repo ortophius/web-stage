@@ -18,6 +18,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*Crome fonts boosting prevention*/
+html * {
+  max-height: 1000000000000px;
+  -moz-text-size-adjust: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -52,7 +57,7 @@ table {
 }
 @media (max-width: 1000px){
   .info{
-    top: 42px;
+    top: 72px;
   }
 }
 .info__label {
@@ -495,7 +500,7 @@ table {
 }
 @media (max-width: 1000px){
   .main-menu__link{
-    font-size: 14px;
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -635,8 +640,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding-left: 1vw;
-    padding-top: 42px;
+    padding: 72px 0 0 0;
   }
 }
 .card {
@@ -646,8 +650,14 @@ table {
   font-weight: 300;
   color: #a3a3a3;
   padding: 1.3vw 1.3vw 1.56vw 1.3vw;
+  padding: 25px;
   background-color: #ffffff;
   background-clip: content-box;
+}
+@media (max-width: 1000px){
+  .card{
+    padding: 0;
+  }
 }
 .card__content {
   background-color: #ffffff;
@@ -659,6 +669,11 @@ table {
   padding-bottom: 30px;
   padding-bottom: 1.56vw;
 }
+@media (max-width: 1000px){
+  .card__content{
+    display: block;
+  }
+}
 .card__column {
   width: 100%;
   padding: 0 30px 0 29px;
@@ -667,6 +682,11 @@ table {
 
 .card__column:first-of-type {
   border-right: 1px solid #e5e5e5;
+}
+@media (max-width: 1200px){
+  .card__column{
+    width: auto;
+  }
 }
 .about__title-image {
   padding-top: 41.88%;
@@ -693,6 +713,11 @@ table {
   padding-bottom: 0.7em;
   padding-top: 0px; 
 }
+@media (max-width: 1000px){
+  .card__item-title{
+    font-size: 32px;
+  }
+}
 .card__description {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -702,6 +727,12 @@ table {
 
 .card__description + .card__description {
   margin-top: 1.7em;
+}
+@media (max-width: 1000px){
+  .card__description{
+    font-size: 18px;
+    line-height: 1.5;
+  }
 }
 .card__v-line {
   min-height: 1px;
