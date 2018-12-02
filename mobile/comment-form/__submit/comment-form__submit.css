@@ -1,0 +1,6 @@
+@media (max-width: 1000px){
+  .comment-form__submit, .comment-form__submit:focus{
+    font-size: 24px;
+    padding: 1em;
+  }
+}

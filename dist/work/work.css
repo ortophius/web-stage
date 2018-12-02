@@ -18,6 +18,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*Crome fonts boosting prevention*/
+html * {
+  max-height: 1000000000000px;
+  -moz-text-size-adjust: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -52,7 +57,7 @@ table {
 }
 @media (max-width: 1000px){
   .info{
-    top: 42px;
+    top: 72px;
   }
 }
 .info__label {
@@ -635,8 +640,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding-left: 1vw;
-    padding-top: 72px;
+    padding: 72px 0 0 0;
   }
 }
 .card {
@@ -652,7 +656,7 @@ table {
 }
 @media (max-width: 1000px){
   .card{
-    padding: 25px;
+    padding: 0;
   }
 }
 .card__content {
@@ -665,6 +669,11 @@ table {
   padding-bottom: 30px;
   padding-bottom: 1.56vw;
 }
+@media (max-width: 1000px){
+  .card__content{
+    display: block;
+  }
+}
 .card__column {
   width: 100%;
   padding: 0 30px 0 29px;
@@ -673,6 +682,11 @@ table {
 
 .card__column:first-of-type {
   border-right: 1px solid #e5e5e5;
+}
+@media (max-width: 1200px){
+  .card__column{
+    width: auto;
+  }
 }
 .image-slider {
   width: 100%;
@@ -755,6 +769,11 @@ table {
   padding-top: 0.9em;
   padding-bottom: 0.33em;
 }
+@media (max-width: 1000px){
+  .work__title{
+    font-size: 24px;
+  }
+}
 .card__description {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -767,7 +786,8 @@ table {
 }
 @media (max-width: 1000px){
   .card__description{
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 1.5;
   }
 }
 .card__v-line {
@@ -813,8 +833,12 @@ table {
   font-size: 14px;
   margin-bottom: 10px;
 }
+@media (max-width: 1000px){
+  .comment__head{
+    font-size: 28px;
+  }
+}
 .comment__name {
-  font-size: 14px;
   color: #000000;
 }
 .comment__time {
@@ -829,6 +853,11 @@ table {
   background-color: #e5e5e5;
   max-width: 185px;
   margin-bottom: 10px;
+}
+@media (max-width: 1000px){
+  .comment__body{
+    font-size: 24px;
+  }
 }
 .comment__sub-comment {
   margin-top: 33px;
@@ -867,6 +896,12 @@ table {
 
 .comment-form__column + .comment-form__column {
   margin-left: 10px;
+}
+@media (max-width: 1000px){
+  .comment-form__column + .comment-form__column{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 }
 .comment-form__item {
   flex: 1 0;
@@ -949,6 +984,12 @@ div[class*="comment-form__item_icon"] .comment-form__input {
   background-color: #1ab5b3;
   border: 0px;
   cursor: pointer;
+}
+@media (max-width: 1000px){
+  .comment-form__submit, .comment-form__submit:focus{
+    font-size: 24px;
+    padding: 1em;
+  }
 }
 
 .project-info__title {

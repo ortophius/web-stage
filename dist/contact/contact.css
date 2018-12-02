@@ -18,6 +18,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*Crome fonts boosting prevention*/
+html * {
+  max-height: 1000000000000px;
+  -moz-text-size-adjust: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -52,7 +57,7 @@ table {
 }
 @media (max-width: 1000px){
   .info{
-    top: 42px;
+    top: 72px;
   }
 }
 .info__label {
@@ -635,8 +640,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding-left: 1vw;
-    padding-top: 72px;
+    padding: 72px 0 0 0;
   }
 }
 .fullpage-map {
@@ -662,6 +666,11 @@ table {
     width: auto;
   }
 }
+@media (max-width: 1000px){
+  .contact{
+    padding: 0; 
+  }
+}
 .card {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -675,11 +684,16 @@ table {
 }
 @media (max-width: 1000px){
   .card{
-    padding: 25px;
+    padding: 0;
   }
 }
 .card_noclip {
   background-clip: border-box;
+}
+@media (max-width: 1000px){
+  .card_noclip{
+    padding: 25px;
+  }
 }
 .card__item-title {
   font-family: 'Roboto', sans-serif;
@@ -716,7 +730,8 @@ table {
 }
 @media (max-width: 1000px){
   .card__description{
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 1.5;
   }
 }
 .card__v-line {
@@ -746,6 +761,12 @@ table {
 
 .comment-form__column + .comment-form__column {
   margin-left: 10px;
+}
+@media (max-width: 1000px){
+  .comment-form__column + .comment-form__column{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
 }
 .comment-form__item {
   flex: 1 0;
@@ -828,6 +849,12 @@ div[class*="comment-form__item_icon"] .comment-form__input {
   background-color: #1ab5b3;
   border: 0px;
   cursor: pointer;
+}
+@media (max-width: 1000px){
+  .comment-form__submit, .comment-form__submit:focus{
+    font-size: 24px;
+    padding: 1em;
+  }
 }
 .comment-form__input_invalid {
   transition: 0s;

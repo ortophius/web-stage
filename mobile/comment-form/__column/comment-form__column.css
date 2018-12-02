@@ -1,0 +1,6 @@
+@media (max-width: 1000px){
+  .comment-form__column + .comment-form__column{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}

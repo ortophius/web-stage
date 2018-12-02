@@ -18,6 +18,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*Crome fonts boosting prevention*/
+html * {
+  max-height: 1000000000000px;
+  -moz-text-size-adjust: none;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -52,7 +57,7 @@ table {
 }
 @media (max-width: 1000px){
   .info{
-    top: 42px;
+    top: 72px;
   }
 }
 .info__label {
@@ -635,8 +640,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding-left: 1vw;
-    padding-top: 72px;
+    padding: 72px 0 0 0;
   }
 }
 .card {
@@ -652,7 +656,7 @@ table {
 }
 @media (max-width: 1000px){
   .card{
-    padding: 25px;
+    padding: 0;
   }
 }
 .card__content {
@@ -665,6 +669,11 @@ table {
   padding-bottom: 30px;
   padding-bottom: 1.56vw;
 }
+@media (max-width: 1000px){
+  .card__content{
+    display: block;
+  }
+}
 .card__column {
   width: 100%;
   padding: 0 30px 0 29px;
@@ -673,6 +682,11 @@ table {
 
 .card__column:first-of-type {
   border-right: 1px solid #e5e5e5;
+}
+@media (max-width: 1200px){
+  .card__column{
+    width: auto;
+  }
 }
 .about__title-image {
   padding-top: 41.88%;
@@ -716,7 +730,8 @@ table {
 }
 @media (max-width: 1000px){
   .card__description{
-    font-size: 24px;
+    font-size: 18px;
+    line-height: 1.5;
   }
 }
 .card__v-line {
