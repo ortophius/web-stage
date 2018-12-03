@@ -5,4 +5,5 @@
   height: 100vh;
   position: fixed;
   z-index: 100;
+  font-size: 0px; 
 }
