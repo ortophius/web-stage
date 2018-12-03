@@ -2,4 +2,8 @@
   .card__item-title{
     font-size: 32px;
   }
+  .card__item-title:first-child{
+    padding-top: 1.05em;
+    padding-bottom: 0.33em;
+  }
 }

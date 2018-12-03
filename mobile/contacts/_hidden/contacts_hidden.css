@@ -1,0 +1,5 @@
+@media (max-width: 1000px){
+  .contacts_hidden {
+    right: -50vw;
+  }
+}

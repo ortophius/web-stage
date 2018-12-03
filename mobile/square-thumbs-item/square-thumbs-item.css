@@ -1,0 +1,23 @@
+@media (min-width: 1600px){
+  .square-thumbs-item {
+    width: 25%;
+  }
+}
+@media (max-width: 1600px) and (min-width: 1200px){
+  .square-thumbs-item {
+    width: 33.33%;
+    padding-top: 25.6%;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1000px){
+  .square-thumbs-item {
+    width: 50%;
+    padding-top: 36.48%;
+  }
+}
+@media (max-width: 1000px){
+  .square-thumbs-item {
+    width: 100%;
+    padding-top: 72.96%;
+  }
+}

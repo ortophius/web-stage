@@ -1,0 +1,6 @@
+@media (max-width: 1000px){
+  .hover-overlay__background{
+    opacity: 0.3;
+    height: 100%;
+  }
+}

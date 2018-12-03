@@ -1,6 +1,4 @@
 @media (max-width: 1000px){
   .main-menu{
-    display: flex;
-    white-space: nowrap;
   }
 }

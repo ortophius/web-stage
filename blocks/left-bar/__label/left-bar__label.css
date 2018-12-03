@@ -1,0 +1,16 @@
+.left-bar__label{
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 1.56vw;
+  opacity: 0.8;
+}
+
+.left-bar__label span.fas {
+    font-size: 6vw;
+}

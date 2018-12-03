@@ -1,0 +1,10 @@
+@media (max-width: 1000px){
+  .contacts__line {
+    font-size: 24px;
+    margin-right: 17px;
+  }
+  .fa, .fas {
+    font-size: 24px;
+    margin-right: 17px;
+  }
+}

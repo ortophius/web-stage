@@ -1,0 +1,6 @@
+@media (max-width: 1000px){
+  .project-gallery__item{
+    width: 156px;
+    height: 156px;
+  }
+}
