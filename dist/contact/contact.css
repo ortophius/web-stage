@@ -562,7 +562,7 @@ table {
 }
 @media (max-width: 1000px){
   .filter {
-
+     
   }
 }
 .filter__link {
@@ -581,7 +581,7 @@ table {
 }
 @media (max-width: 1000px){
   .filter__link {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 .filter__link_display-icon {
@@ -698,7 +698,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding: 0;
+    padding: 9.12vw 0 0 0;
   }
 }
 .fullpage-map {
@@ -770,7 +770,7 @@ table {
 }
 @media (max-width: 1000px){
   .card__item-title{
-    font-size: 32px;
+    font-size: 46px;
   }
   .card__item-title:first-child{
     padding-top: 1.05em;
@@ -792,7 +792,7 @@ table {
 }
 @media (max-width: 1000px){
   .card__description{
-    font-size: 24px;
+    font-size: 32px;
     line-height: 1.5;
   }
 }
