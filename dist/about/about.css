@@ -562,7 +562,7 @@ table {
 }
 @media (max-width: 1000px){
   .filter {
-
+     
   }
 }
 .filter__link {
@@ -581,7 +581,7 @@ table {
 }
 @media (max-width: 1000px){
   .filter__link {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 .filter__link_display-icon {
@@ -698,7 +698,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding: 0;
+    padding: 9.12vw 0 0 0;
   }
 }
 .card {
@@ -773,7 +773,7 @@ table {
 }
 @media (max-width: 1000px){
   .card__item-title{
-    font-size: 32px;
+    font-size: 46px;
   }
   .card__item-title:first-child{
     padding-top: 1.05em;
@@ -792,7 +792,7 @@ table {
 }
 @media (max-width: 1000px){
   .card__description{
-    font-size: 24px;
+    font-size: 32px;
     line-height: 1.5;
   }
 }
@@ -822,6 +822,11 @@ table {
   background-color: #2db8b6;
   font-size: 16px;
   font-size: 0.83vw;
+}
+@media (max-width: 1000px){
+  .about__staff-item{
+    font-size: 24px;
+  }
 }
 .hover-overlay {
   position: relative;
@@ -894,6 +899,11 @@ table {
   color: #727272;
   text-transform: capitalize;
 }
+@media (max-width: 1000px){
+  .graph__title{
+    font-size: 24px;
+  }
+}
 .graph__value {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -901,6 +911,11 @@ table {
   font-size: 0.73vw;
   color: #000000;
   float: right;
+}
+@media (max-width: 1000px){
+  .graph__value{
+    font-size: 24px;
+  }
 }
 .graph__bar {
   padding-top: 4.6%;
@@ -919,6 +934,11 @@ table {
 .testimonials {
   font-size: 15px;
   font-size: 0.78vw;
+}
+@media (max-width: 1000px){
+  .testimonials{
+    font-size: 24px;
+  }
 }
 .testimonials__bar {
   background-color: #1ab5b3;
@@ -956,6 +976,11 @@ table {
   font-weight: 300;
   color: #848484;
   list-style-type: none;
+}
+@media (max-width: 1000px){
+  .list{
+    font-size: 18px;
+  }
 }
 .list__item {
   line-height: 2;

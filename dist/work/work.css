@@ -562,7 +562,7 @@ table {
 }
 @media (max-width: 1000px){
   .filter {
-
+     
   }
 }
 .filter__link {
@@ -581,7 +581,7 @@ table {
 }
 @media (max-width: 1000px){
   .filter__link {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 .filter__link_display-icon {
@@ -698,7 +698,7 @@ table {
 }
 @media (max-width: 1000px){
   .content {
-    padding: 0;
+    padding: 9.12vw 0 0 0;
   }
 }
 .card {
@@ -813,7 +813,7 @@ table {
 }
 @media (max-width: 1000px){
   .card__item-title{
-    font-size: 32px;
+    font-size: 46px;
   }
   .card__item-title:first-child{
     padding-top: 1.05em;
@@ -839,7 +839,7 @@ table {
 }
 @media (max-width: 1000px){
   .card__description{
-    font-size: 24px;
+    font-size: 32px;
     line-height: 1.5;
   }
 }
@@ -879,6 +879,12 @@ table {
   margin-right: 21px;
   flex-shrink: 0;
 }
+@media (max-width: 1000px){
+  .comment__avatar{
+    width: 90px;
+    height: 90px;
+  }
+}
 .comment__wrap {
   
 }
@@ -888,7 +894,7 @@ table {
 }
 @media (max-width: 1000px){
   .comment__head{
-    font-size: 28px;
+    font-size: 34px;
   }
 }
 .comment__name {
@@ -914,7 +920,7 @@ table {
 }
 @media (max-width: 1000px){
   .comment__body{
-    font-size: 22px;
+    font-size: 32px;
   }
 }
 .comment__sub-comment {
@@ -1060,7 +1066,7 @@ div[class*="comment-form__item_icon"] .comment-form__input {
 }
 @media (max-width: 1000px){
   .project-info__item{
-    font-size: 18px;
+    font-size: 24px;
   }
 }
 .project-info__icon {
@@ -1080,7 +1086,9 @@ div[class*="comment-form__item_icon"] .comment-form__input {
   color: #ffffff;
   background-color: #1ab5b3;
 }
-
+.tags {
+  margin-bottom: -1em;
+}
 .tags__item {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
@@ -1092,6 +1100,7 @@ div[class*="comment-form__item_icon"] .comment-form__input {
   border-radius: 10%/30%;
   padding: 1em 1.5em;
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 .tags__item:hover {
@@ -1100,7 +1109,7 @@ div[class*="comment-form__item_icon"] .comment-form__input {
 }
 @media (max-width: 1000px){
   .tags__item{
-    font-size: 18px;
+    font-size: 24px;
     background-color: #3fbcba;
     color: #ffffff;
   }
@@ -1146,7 +1155,7 @@ div[class*="comment-form__item_icon"] .comment-form__input {
 }
 @media (max-width: 1000px){
   .features__item {
-    font-size: 18px; 
+    font-size: 24px; 
   }
 }
 @media (max-width: 1000px){

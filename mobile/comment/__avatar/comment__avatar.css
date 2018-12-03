@@ -1,0 +1,6 @@
+@media (max-width: 1000px){
+  .comment__avatar{
+    width: 90px;
+    height: 90px;
+  }
+}
