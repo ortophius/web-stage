@@ -4,10 +4,9 @@
   font-style: italic;
   quotes: '\201c' '\201d';
   font-size: 65px;
-  font-size: 3.38vw;
   /* Корректируем базовую линию кавычек */
   line-height: 0px;
-  padding-top: 20%;
+  padding-top: 1em;
   padding-right: 10.2%;
 }
 .post-quote__quote-icon::before{

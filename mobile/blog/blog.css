@@ -1,0 +1,23 @@
+@media (max-width: 1600px) and (min-width: 1025px){
+  .blog {
+    columns: 4;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+  .blog {
+    columns: 3;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px){
+  .blog {
+    columns: 2;
+  }
+}
+
+@media (max-width: 1000px){
+  .blog {
+    columns: 1;
+  }
+}

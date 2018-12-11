@@ -845,6 +845,13 @@ table {
   border-color: #11615f;
   background-color: #11615fcc;
 }
+@media (max-width: 1000px){
+  .arrow-button {
+    width: 97px;
+    height: 97px;
+    padding-top: 0;
+  }
+}
 .square-thumbs-item__button {
   display: block;
   width: 2.55em;
