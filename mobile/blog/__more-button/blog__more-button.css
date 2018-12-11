@@ -1,0 +1,10 @@
+@media (max-width: 1000px){
+  .blog__more-button {
+    position: relative;
+    width: 100%;
+    font-size: 25px;
+    line-height: 63px;
+    bottom: inherit;
+    right: inherit;
+  }
+}

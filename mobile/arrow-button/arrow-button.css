@@ -1,0 +1,7 @@
+@media (max-width: 1000px){
+  .arrow-button {
+    width: 97px;
+    height: 97px;
+    padding-top: 0;
+  }
+}
