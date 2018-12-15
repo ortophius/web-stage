@@ -1,0 +1,13 @@
+@media (max-width: 1000px){
+  .logo-m {
+    background-image: url(static/logo/logo_m.png);
+    background-image: url(static/logo/logo_m.png);
+    display: inline-block;
+    width: 50%;
+    height: 55px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: opacity 0.3s;
+  }
+}

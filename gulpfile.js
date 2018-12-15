@@ -13,11 +13,16 @@ const through = require('through2');
 const path = require('path');
 const blocksPath = path.join(__dirname, 'blocks');
 const distPath = path.join(__dirname, 'dist');
+const levels = [
+  'blocks',
+  'mobile'
+];
 
 const builder = bundleBuilder({
     config: {
         levels: {
-            'blocks': {scheme: 'nested'}
+            'blocks': {scheme: 'nested'},
+            'modile': {scheme: 'nested'}
         }
     },
     levels: [
@@ -53,7 +58,9 @@ const pugConfig = {basedir: blocksPath}
 const pathsFromBem = bem => {
     var res = [];
     bem.decl.forEach((entity) => {
-        res.push(path.join(blocksPath, entity.block, 'static', '*'));
+        levels.forEach((level) => {
+          res.push(path.join(path.join(__dirname, level), entity.block, 'static', '*'));
+        })
     });
     return res;
 }

@@ -8,9 +8,8 @@
   color: #FFFFFF;
   background-color: #000000;
   padding: 1.56vw;
+  padding-right: 9.1vw;
   opacity: 0.8;
-}
-
-.left-bar__label span.fas {
-    font-size: 6vw;
+  box-sizing: border-box;
+  text-align: center;
 }
