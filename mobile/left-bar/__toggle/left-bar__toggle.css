@@ -1,8 +1,8 @@
 @media (max-width: 1000px){
   .left-bar__toggle {
     background-image: url('static/left-bar/bars.svg');
-    width: 6vw;
-    height: 6vw;
+    width: 30px;
+    height: 30px;
     float: left;
     background-size: cover;
     background-repeat: no-repeat;

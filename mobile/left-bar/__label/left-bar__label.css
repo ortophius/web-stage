@@ -1,5 +1,8 @@
 @media (max-width: 1000px){
   .left-bar__label{
+    padding: 15px;
+    padding-right: 60px;
+    height: 60px;
     display: block;
   }
 }
